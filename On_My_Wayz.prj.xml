@@ -55,18 +55,18 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1419858421902</cdate>
 		<name>On My Wayz</name>
-		<pids>198,203,57</pids>
+		<pids>57,203,198</pids>
 		<psort>Alpha</psort>
-		<scenes>omw.home.side.settings.1080p,omw.help.2_1080p,omw.setBT_1080p,omw.help.1_1080p,omw.setCAL_1080p,omw.help.3_1080p,asms.settings1080p,omw.home_1080p,omw.setSCH_1080p,asms.settings720p</scenes>
-		<tids>118,193,18,243,254,232,261,255,268,250,133,265,234,270,259,65,78,272,99,257,262,205,258,256,244,110,239,213,233,264,61,235,267,260,253,180,252,271,251,17,269,184,242,84,172,183,215,249,236,178,181,200,114,241,237,186,85,177,182,125,176,217,214,194,229,196,170,179,127,171,173,185,209,204,201,231,174,175,202,208,216,212,199,210,191,230,266,246,218</tids>
+		<scenes>omw.home.side.settings.1080p,omw.setBT_1080p,-omw.help.2_1080p,-omw.help.3_1080p,omw.home_1080p,-omw.help.1_1080p,omw.setCAL_1080p,asms.settings1080p,asms.settings720p,omw.help.1_1080p,omw.setSCH_1080p</scenes>
+		<tids>272,270,236,259,271,78,251,183,241,261,265,193,252,237,260,234,264,262,254,216,268,182,232,205,218,242,178,244,180,217,84,65,239,250,17,255,257,243,269,125,99,114,176,118,233,133,170,85,185,110,256,253,258,201,212,267,18,229,235,215,249,186,127,184,61,194,266,174,196,177,179,200,209,204,181,191,202,199,214,208,246,210,175,172,173,171,230,247,245,213,231</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
-			<eperm0>android.permission.ACCESS_FINE_LOCATION</eperm0>
-			<eperm1>android.permission.READ_CONTACTS</eperm1>
+			<eperm0>android.permission.READ_CONTACTS</eperm0>
+			<eperm1>android.permission.ACCESS_FINE_LOCATION</eperm1>
 			<eperm2>android.permission.WRITE_CALENDAR</eperm2>
 			<feat0>android.hardware.location:y</feat0>
-			<feat1>android.hardware.location.gps:y</feat1>
-			<feat2>android.hardware.bluetooth:y</feat2>
+			<feat1>android.hardware.bluetooth:y</feat1>
+			<feat2>android.hardware.location.gps:y</feat2>
 			<launchID>61</launchID>
 			<pkg>com.rodov.omw</pkg>
 			<vnme>1.0.89
@@ -77,6 +77,388 @@
 			<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
 		</Img>
 	</Project>
+	<Scene sr="scene-omw.help.1_1080p">
+		<cdate>1419930020071</cdate>
+		<edate>1446122685957</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1287</heightPort>
+		<nme>-omw.help.1_1080p</nme>
+		<widthLand>1062</widthLand>
+		<widthPort>1062</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,2,1058,1205,0,0,1057,1036</geom>
+			<Str sr="arg0" ve="3">Background</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFE2ECF9</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="5"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>26,27,1006,320,25,78,1006,298</geom>
+			<Str sr="arg0" ve="3">calendarWrapper</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFdfdfd</Str>
+			<Str sr="arg3" ve="3">#FFdddddd</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="1"/>
+		</RectElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>26,347,1006,246,25,370,1006,205</geom>
+			<Str sr="arg0" ve="3">btWrapper</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFDFDFD</Str>
+			<Str sr="arg3" ve="3">#FFDDDDDD</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>26,347,1008,836,25,444,786,132</geom>
+			<Str sr="arg0" ve="3">btSpinnerBg</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFC0C0C0</Str>
+			<Str sr="arg3" ve="3">#FFEEEEEE</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<ImageElement sr="elements4" ve="2">
+			<flags>4</flags>
+			<geom>493,0,567,567,787,346,270,246</geom>
+			<Str sr="arg0" ve="3">HelpImage</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3396</uri>
+			</Img>
+			<Int sr="arg2" val="50"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+		</ImageElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>51,27,958,295,51,370,834,79</geom>
+			<Str sr="arg0" ve="3">btSubtext</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;Calendar event setup - hours:&lt;/b&gt;&lt;br&gt; Set the hours when the event is active i.e. the time window when the SMS can be sent</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<ImageElement sr="elements6" ve="2">
+			<flags>4</flags>
+			<geom>51,371,958,738,51,297,958,763</geom>
+			<Str sr="arg0" ve="3">Help.hours</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3444</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<ImageElement sr="elements7" ve="2">
+			<clickTask>259</clickTask>
+			<flags>4</flags>
+			<geom>395,1030,256,256,419,961,250,250</geom>
+			<Str sr="arg0" ve="3">Next.1080</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3408</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<keyTask>256</keyTask>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00F4F4F4</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">asmsSettings</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scene-omw.help.2_1080p">
+		<cdate>1419930020071</cdate>
+		<edate>1446122695259</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1287</heightPort>
+		<nme>-omw.help.2_1080p</nme>
+		<widthLand>1062</widthLand>
+		<widthPort>1062</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,2,1058,1205,0,0,1057,1036</geom>
+			<Str sr="arg0" ve="3">Background</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFE2ECF9</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="5"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>26,27,1006,320,25,78,1006,298</geom>
+			<Str sr="arg0" ve="3">calendarWrapper</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFdfdfd</Str>
+			<Str sr="arg3" ve="3">#FFdddddd</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="1"/>
+		</RectElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>26,347,1006,246,25,370,1006,205</geom>
+			<Str sr="arg0" ve="3">btWrapper</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFDFDFD</Str>
+			<Str sr="arg3" ve="3">#FFDDDDDD</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>26,347,1008,836,25,444,786,132</geom>
+			<Str sr="arg0" ve="3">btSpinnerBg</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFC0C0C0</Str>
+			<Str sr="arg3" ve="3">#FFEEEEEE</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<ImageElement sr="elements4" ve="2">
+			<flags>4</flags>
+			<geom>493,0,567,567,787,346,270,246</geom>
+			<Str sr="arg0" ve="3">HelpImage</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3396</uri>
+			</Img>
+			<Int sr="arg2" val="50"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+		</ImageElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>51,27,958,295,51,370,834,79</geom>
+			<Str sr="arg0" ve="3">btSubtext</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;Calendar event setup - address:&lt;/b&gt;&lt;br&gt; Set your destination</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<ImageElement sr="elements6" ve="2">
+			<flags>4</flags>
+			<geom>51,471,958,517,51,297,958,763</geom>
+			<Str sr="arg0" ve="3">help.location.1080</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3445</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<ImageElement sr="elements7" ve="2">
+			<clickTask>260</clickTask>
+			<flags>4</flags>
+			<geom>395,1030,256,256,419,961,250,250</geom>
+			<Str sr="arg0" ve="3">Next.1080</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3408</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<keyTask>257</keyTask>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00F4F4F4</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">asmsSettings</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scene-omw.help.3_1080p">
+		<cdate>1419930020071</cdate>
+		<edate>1446122704351</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1287</heightPort>
+		<nme>-omw.help.3_1080p</nme>
+		<widthLand>1062</widthLand>
+		<widthPort>1062</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,2,1058,1205,0,0,1057,1036</geom>
+			<Str sr="arg0" ve="3">Background</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFE2ECF9</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="5"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>26,27,1006,320,25,78,1006,298</geom>
+			<Str sr="arg0" ve="3">calendarWrapper</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFdfdfd</Str>
+			<Str sr="arg3" ve="3">#FFdddddd</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="1"/>
+		</RectElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>26,347,1006,246,25,370,1006,205</geom>
+			<Str sr="arg0" ve="3">btWrapper</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFDFDFD</Str>
+			<Str sr="arg3" ve="3">#FFDDDDDD</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>26,347,1008,836,25,444,786,132</geom>
+			<Str sr="arg0" ve="3">btSpinnerBg</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFC0C0C0</Str>
+			<Str sr="arg3" ve="3">#FFEEEEEE</Str>
+			<Int sr="arg4" val="2"/>
+			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<ImageElement sr="elements4" ve="2">
+			<flags>4</flags>
+			<geom>493,0,567,567,787,346,270,246</geom>
+			<Str sr="arg0" ve="3">HelpImage</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3396</uri>
+			</Img>
+			<Int sr="arg2" val="50"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+		</ImageElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>51,28,958,321,51,370,834,79</geom>
+			<Str sr="arg0" ve="3">btSubtext</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;Calendar event setup - template:&lt;/b&gt;&lt;br&gt; Choose a contact(s) whos is going ti receive the text message
+and the text that is.going to be sent</Str>
+			<Int sr="arg2" val="20"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<ImageElement sr="elements6" ve="2">
+			<flags>4</flags>
+			<geom>51,371,958,738,51,297,958,763</geom>
+			<Str sr="arg0" ve="3">Help.body</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3446</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<ImageElement sr="elements7" ve="2">
+			<clickTask>261</clickTask>
+			<flags>4</flags>
+			<geom>395,1031,256,256,419,961,250,250</geom>
+			<Str sr="arg0" ve="3">Next.1080</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.providers.media.documents/document/image%3A3408</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<keyTask>258</keyTask>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00F4F4F4</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">asmsSettings</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
 	<Scene sr="sceneasms.settings1080p">
 		<cdate>1419930020071</cdate>
 		<edate>1445753710818</edate>
@@ -1009,376 +1391,76 @@ Select calendar name that will trigger sms sending event and will contain event 
 	</Scene>
 	<Scene sr="sceneomw.help.1_1080p">
 		<cdate>1419930020071</cdate>
-		<edate>1445771849962</edate>
+		<edate>1446123025529</edate>
 		<heightLand>1080</heightLand>
-		<heightPort>1287</heightPort>
+		<heightPort>1920</heightPort>
 		<nme>omw.help.1_1080p</nme>
 		<widthLand>1062</widthLand>
-		<widthPort>1062</widthPort>
+		<widthPort>1080</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>0,2,1058,1205,0,0,1057,1036</geom>
-			<Str sr="arg0" ve="3">Background</Str>
+			<geom>0,0,1080,485,25,444,786,132</geom>
+			<Str sr="arg0" ve="3">header</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFE2ECF9</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="5"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements1">
-			<flags>4</flags>
-			<geom>26,27,1006,320,25,78,1006,298</geom>
-			<Str sr="arg0" ve="3">calendarWrapper</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFFdfdfd</Str>
-			<Str sr="arg3" ve="3">#FFdddddd</Str>
+			<Str sr="arg2" ve="3">#807A919A</Str>
+			<Str sr="arg3" ve="3">%cssPrimDarkColor</Str>
 			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="1"/>
-		</RectElement>
-		<RectElement sr="elements2">
-			<flags>4</flags>
-			<geom>26,347,1006,246,25,370,1006,205</geom>
-			<Str sr="arg0" ve="3">btWrapper</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFFDFDFD</Str>
-			<Str sr="arg3" ve="3">#FFDDDDDD</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
+			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="2"/>
 		</RectElement>
-		<RectElement sr="elements3">
+		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>26,347,1008,836,25,444,786,132</geom>
-			<Str sr="arg0" ve="3">btSpinnerBg</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFC0C0C0</Str>
-			<Str sr="arg3" ve="3">#FFEEEEEE</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="2"/>
-		</RectElement>
-		<ImageElement sr="elements4" ve="2">
-			<flags>4</flags>
-			<geom>493,0,567,567,787,346,270,246</geom>
-			<Str sr="arg0" ve="3">HelpImage</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3396</uri>
-			</Img>
-			<Int sr="arg2" val="50"/>
-			<Str sr="arg3" ve="3">#000099CC</Str>
-		</ImageElement>
-		<TextElement sr="elements5" ve="3">
-			<flags>4</flags>
-			<geom>51,27,958,295,51,370,834,79</geom>
-			<Str sr="arg0" ve="3">btSubtext</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;Calendar event setup - hours:&lt;/b&gt;&lt;br&gt; Set the hours when the event is active i.e. the time window when the SMS can be sent</Str>
-			<Int sr="arg2" val="20"/>
+			<geom>77,160,974,150,2,335,675,150</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Setting up your calendar events</Str>
+			<Int sr="arg2" val="22"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3"/>
+			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
+			<Str sr="arg5" ve="3">%cssTextTitleFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>77,260,624,150,51,370,834,79</geom>
+			<Str sr="arg0" ve="3">btSubtext</Str>
+			<Str sr="arg1" ve="3">select your bluetooth device</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
 			<Int sr="arg6" val="3"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="2"/>
 		</TextElement>
-		<ImageElement sr="elements6" ve="2">
+		<ImageElement sr="elements3" ve="2">
 			<flags>4</flags>
-			<geom>51,371,958,738,51,297,958,763</geom>
-			<Str sr="arg0" ve="3">Help.hours</Str>
+			<geom>802,335,256,256,787,346,270,246</geom>
+			<Str sr="arg0" ve="3">BtImage</Str>
 			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3444</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">#FF0099CC</Str>
-		</ImageElement>
-		<ImageElement sr="elements7" ve="2">
-			<clickTask>259</clickTask>
-			<flags>4</flags>
-			<geom>395,1030,256,256,419,961,250,250</geom>
-			<Str sr="arg0" ve="3">Next.1080</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3408</uri>
+				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
 			</Img>
 			<Int sr="arg2" val="255"/>
 			<Str sr="arg3" ve="3">#000099CC</Str>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
 		</ImageElement>
-		<PropertiesElement sr="props">
-			<keyTask>256</keyTask>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00F4F4F4</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">asmsSettings</Str>
-			<Str sr="arg5" ve="3"/>
-			<Img sr="arg6" ve="2"/>
-			<Str sr="arg7" ve="3"/>
-			<LinkClickFilter sr="filter0">
-				<urlMatch>back</urlMatch>
-			</LinkClickFilter>
-		</PropertiesElement>
-	</Scene>
-	<Scene sr="sceneomw.help.2_1080p">
-		<cdate>1419930020071</cdate>
-		<edate>1445771907601</edate>
-		<heightLand>1080</heightLand>
-		<heightPort>1287</heightPort>
-		<nme>omw.help.2_1080p</nme>
-		<widthLand>1062</widthLand>
-		<widthPort>1062</widthPort>
-		<RectElement sr="elements0">
-			<flags>4</flags>
-			<geom>0,2,1058,1205,0,0,1057,1036</geom>
-			<Str sr="arg0" ve="3">Background</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFE2ECF9</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="5"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements1">
-			<flags>4</flags>
-			<geom>26,27,1006,320,25,78,1006,298</geom>
-			<Str sr="arg0" ve="3">calendarWrapper</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFFdfdfd</Str>
-			<Str sr="arg3" ve="3">#FFdddddd</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="1"/>
-		</RectElement>
-		<RectElement sr="elements2">
-			<flags>4</flags>
-			<geom>26,347,1006,246,25,370,1006,205</geom>
-			<Str sr="arg0" ve="3">btWrapper</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFFDFDFD</Str>
-			<Str sr="arg3" ve="3">#FFDDDDDD</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="2"/>
-		</RectElement>
-		<RectElement sr="elements3">
-			<flags>4</flags>
-			<geom>26,347,1008,836,25,444,786,132</geom>
-			<Str sr="arg0" ve="3">btSpinnerBg</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFC0C0C0</Str>
-			<Str sr="arg3" ve="3">#FFEEEEEE</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="2"/>
-		</RectElement>
 		<ImageElement sr="elements4" ve="2">
+			<clickTask>245</clickTask>
 			<flags>4</flags>
-			<geom>493,0,567,567,787,346,270,246</geom>
-			<Str sr="arg0" ve="3">HelpImage</Str>
+			<geom>952,35,99,100,927,35,99,100</geom>
+			<Str sr="arg0" ve="3">Close</Str>
 			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3396</uri>
-			</Img>
-			<Int sr="arg2" val="50"/>
-			<Str sr="arg3" ve="3">#000099CC</Str>
-		</ImageElement>
-		<TextElement sr="elements5" ve="3">
-			<flags>4</flags>
-			<geom>51,27,958,295,51,370,834,79</geom>
-			<Str sr="arg0" ve="3">btSubtext</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;Calendar event setup - address:&lt;/b&gt;&lt;br&gt; Set your destination</Str>
-			<Int sr="arg2" val="20"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<ImageElement sr="elements6" ve="2">
-			<flags>4</flags>
-			<geom>51,471,958,517,51,297,958,763</geom>
-			<Str sr="arg0" ve="3">help.location.1080</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3445</uri>
+				<nme>hd_ab_content_remove</nme>
 			</Img>
 			<Int sr="arg2" val="255"/>
 			<Str sr="arg3" ve="3">#FF0099CC</Str>
 		</ImageElement>
-		<ImageElement sr="elements7" ve="2">
-			<clickTask>260</clickTask>
-			<flags>4</flags>
-			<geom>395,1030,256,256,419,961,250,250</geom>
-			<Str sr="arg0" ve="3">Next.1080</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3408</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">#000099CC</Str>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</ImageElement>
 		<PropertiesElement sr="props">
-			<keyTask>257</keyTask>
+			<keyTask>247</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00F4F4F4</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">asmsSettings</Str>
-			<Str sr="arg5" ve="3"/>
-			<Img sr="arg6" ve="2"/>
-			<Str sr="arg7" ve="3"/>
-			<LinkClickFilter sr="filter0">
-				<urlMatch>back</urlMatch>
-			</LinkClickFilter>
-		</PropertiesElement>
-	</Scene>
-	<Scene sr="sceneomw.help.3_1080p">
-		<cdate>1419930020071</cdate>
-		<edate>1445714312191</edate>
-		<heightLand>1080</heightLand>
-		<heightPort>1287</heightPort>
-		<nme>omw.help.3_1080p</nme>
-		<widthLand>1062</widthLand>
-		<widthPort>1062</widthPort>
-		<RectElement sr="elements0">
-			<flags>4</flags>
-			<geom>0,2,1058,1205,0,0,1057,1036</geom>
-			<Str sr="arg0" ve="3">Background</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFE2ECF9</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="5"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements1">
-			<flags>4</flags>
-			<geom>26,27,1006,320,25,78,1006,298</geom>
-			<Str sr="arg0" ve="3">calendarWrapper</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFFdfdfd</Str>
-			<Str sr="arg3" ve="3">#FFdddddd</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="1"/>
-		</RectElement>
-		<RectElement sr="elements2">
-			<flags>4</flags>
-			<geom>26,347,1006,246,25,370,1006,205</geom>
-			<Str sr="arg0" ve="3">btWrapper</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFFDFDFD</Str>
-			<Str sr="arg3" ve="3">#FFDDDDDD</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA3A3A3</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="2"/>
-		</RectElement>
-		<RectElement sr="elements3">
-			<flags>4</flags>
-			<geom>26,347,1008,836,25,444,786,132</geom>
-			<Str sr="arg0" ve="3">btSpinnerBg</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFC0C0C0</Str>
-			<Str sr="arg3" ve="3">#FFEEEEEE</Str>
-			<Int sr="arg4" val="2"/>
-			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="2"/>
-		</RectElement>
-		<ImageElement sr="elements4" ve="2">
-			<flags>4</flags>
-			<geom>493,0,567,567,787,346,270,246</geom>
-			<Str sr="arg0" ve="3">HelpImage</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3396</uri>
-			</Img>
-			<Int sr="arg2" val="50"/>
-			<Str sr="arg3" ve="3">#000099CC</Str>
-		</ImageElement>
-		<TextElement sr="elements5" ve="3">
-			<flags>4</flags>
-			<geom>51,28,958,321,51,370,834,79</geom>
-			<Str sr="arg0" ve="3">btSubtext</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;Calendar event setup - template:&lt;/b&gt;&lt;br&gt; Choose a contact(s) whos is going ti receive the text message
-and the text that is.going to be sent</Str>
-			<Int sr="arg2" val="20"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<ImageElement sr="elements6" ve="2">
-			<flags>4</flags>
-			<geom>51,371,958,738,51,297,958,763</geom>
-			<Str sr="arg0" ve="3">Help.body</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3446</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">#FF0099CC</Str>
-		</ImageElement>
-		<ImageElement sr="elements7" ve="2">
-			<clickTask>261</clickTask>
-			<flags>4</flags>
-			<geom>395,1031,256,256,419,961,250,250</geom>
-			<Str sr="arg0" ve="3">Next.1080</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.providers.media.documents/document/image%3A3408</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">#000099CC</Str>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</ImageElement>
-		<PropertiesElement sr="props">
-			<keyTask>258</keyTask>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00F4F4F4</Str>
+			<Str sr="arg2" ve="3">#FFF2F2F2</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3">asmsSettings</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1391,7 +1473,7 @@ and the text that is.going to be sent</Str>
 	</Scene>
 	<Scene sr="sceneomw.home.side.settings.1080p">
 		<cdate>1445926871665</cdate>
-		<edate>1446071879400</edate>
+		<edate>1446121040964</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1920</heightPort>
 		<nme>omw.home.side.settings.1080p</nme>
@@ -1423,7 +1505,7 @@ and the text that is.going to be sent</Str>
 		</RectElement>
 		<SpinnerElement sr="elements10">
 			<flags>4</flags>
-			<geom>452,910,607,125,227,885,607,168</geom>
+			<geom>427,910,624,75,227,885,607,168</geom>
 			<itemselectedTask>241</itemselectedTask>
 			<Str sr="arg0" ve="3">stream.spinner</Str>
 			<Int sr="arg1" val="0"/>
@@ -1476,7 +1558,7 @@ and the text that is.going to be sent</Str>
 					<PropertiesElement sr="props">
 						<Int sr="arg0" val="1"/>
 						<Int sr="arg1" val="0"/>
-						<Str sr="arg2" ve="3">#00000000</Str>
+						<Str sr="arg2" ve="3">#FFD4D4D4</Str>
 						<Int sr="arg3" val="0"/>
 						<Str sr="arg4" ve="3">spinner</Str>
 						<Str sr="arg5" ve="3"/>
@@ -1580,7 +1662,7 @@ and the text that is.going to be sent</Str>
 			<flags>4</flags>
 			<geom>427,511,625,125,427,511,625,125</geom>
 			<Str sr="arg0" ve="3">voice.button.text</Str>
-			<Str sr="arg1" ve="3">results are voiced</Str>
+			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
@@ -1614,7 +1696,7 @@ and the text that is.going to be sent</Str>
 		</OvalElement>
 		<ImageElement sr="elements7" ve="2">
 			<flags>4</flags>
-			<geom>277,810,127,125,277,511,128,128</geom>
+			<geom>277,835,127,125,277,511,128,128</geom>
 			<Str sr="arg0" ve="3">stream.button.img</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_av_shuffle</nme>
@@ -1638,7 +1720,7 @@ and the text that is.going to be sent</Str>
 			<flags>4</flags>
 			<geom>427,660,624,136,427,511,625,125</geom>
 			<Str sr="arg0" ve="3">debug.button.text</Str>
-			<Str sr="arg1" ve="3">flash debug messages</Str>
+			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
@@ -1683,7 +1765,7 @@ and the text that is.going to be sent</Str>
 	</Scene>
 	<Scene sr="sceneomw.home_1080p">
 		<cdate>1444468910718</cdate>
-		<edate>1446071799803</edate>
+		<edate>1446122057998</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1884</heightPort>
 		<nme>omw.home_1080p</nme>
@@ -1717,9 +1799,9 @@ and the text that is.going to be sent</Str>
 			<clickTask>239</clickTask>
 			<flags>4</flags>
 			<geom>952,0,124,135,952,10,124,135</geom>
-			<Str sr="arg0" ve="3">lines.menu</Str>
+			<Str sr="arg0" ve="3">settings.button</Str>
 			<Img sr="arg1" ve="2">
-				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Flines%20menu%20icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
+				<nme>hd_aaa_ext_gear</nme>
 			</Img>
 			<Int sr="arg2" val="255"/>
 			<Str sr="arg3" ve="3">#FF0099CC</Str>
@@ -1812,9 +1894,9 @@ and the text that is.going to be sent</Str>
 		</ImageElement>
 		<RectElement sr="elements16">
 			<flags>4</flags>
-			<geom>0,1429,1080,25,0,0,1080,654</geom>
+			<geom>0,1380,1080,5,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.body.footer.shadow</Str>
-			<Int sr="arg1" val="2"/>
+			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#D46C6C6C</Str>
 			<Str sr="arg3" ve="3">#00000000</Str>
 			<Int sr="arg4" val="0"/>
@@ -1837,7 +1919,7 @@ and the text that is.going to be sent</Str>
 		<ImageElement sr="elements18" ve="2">
 			<clickTask>262</clickTask>
 			<flags>4</flags>
-			<geom>27,1454,128,128,427,805,250,275</geom>
+			<geom>27,1429,128,128,427,805,250,275</geom>
 			<Str sr="arg0" ve="3">Help.1080</Str>
 			<Img sr="arg1" ve="2">
 				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -1848,7 +1930,7 @@ and the text that is.going to be sent</Str>
 		<TextElement sr="elements19" ve="3">
 			<clickTask>235</clickTask>
 			<flags>4</flags>
-			<geom>177,1479,874,100,352,1304,625,150</geom>
+			<geom>177,1404,874,175,352,1304,625,150</geom>
 			<Str sr="arg0" ve="3">help.text.e</Str>
 			<Str sr="arg1" ve="3">how do i create a calendar event</Str>
 			<Int sr="arg2" val="20"/>
@@ -1889,20 +1971,20 @@ and the text that is.going to be sent</Str>
 			<flags>4</flags>
 			<geom>177,1229,752,129,402,1210,600,175</geom>
 			<Str sr="arg0" ve="3">save.button.1080</Str>
-			<Str sr="arg1" ve="3">SAVE AND EXIT</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;SAVE AND EXIT&lt;/b&gt;</Str>
 			<Int sr="arg2" val="25"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
 			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
+			<Int sr="arg8" val="2"/>
 			<RectElement sr="background">
 				<flags>4</flags>
 				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
 				<Str sr="arg0" ve="3"/>
 				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#FF3CEF04</Str>
+				<Str sr="arg2" ve="3">#FF3CA819</Str>
 				<Str sr="arg3" ve="3"/>
 				<Int sr="arg4" val="5"/>
 				<Str sr="arg5" ve="3">#FF0BB000</Str>
@@ -1912,7 +1994,7 @@ and the text that is.going to be sent</Str>
 		</TextElement>
 		<ImageElement sr="elements3" ve="2">
 			<flags>4</flags>
-			<geom>777,110,256,256,525,105,525,975</geom>
+			<geom>727,104,256,256,525,105,525,975</geom>
 			<Str sr="arg0" ve="3">home.logo</Str>
 			<Img sr="arg1" ve="2">
 				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -1934,7 +2016,7 @@ and the text that is.going to be sent</Str>
 		</ImageElement>
 		<RectElement sr="elements4">
 			<flags>4</flags>
-			<geom>0,1429,1080,455,0,777,1078,303</geom>
+			<geom>0,1379,1080,505,0,777,1078,303</geom>
 			<Str sr="arg0" ve="3">footer.1080</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%cssDividerColor</Str>
@@ -1949,8 +2031,8 @@ and the text that is.going to be sent</Str>
 			<flags>4</flags>
 			<geom>177,1604,749,125,277,780,637,300</geom>
 			<Str sr="arg0" ve="3">Email.text.1080</Str>
-			<Str sr="arg1" ve="3">Contact developer</Str>
-			<Int sr="arg2" val="20"/>
+			<Str sr="arg1" ve="3">contact developer</Str>
+			<Int sr="arg2" val="21"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
 			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
@@ -1977,7 +2059,7 @@ and the text that is.going to be sent</Str>
 			<Str sr="arg1" ve="3">Send a text message, when</Str>
 			<Int sr="arg2" val="22"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg4" ve="3">%cssPrimDarkColor</Str>
 			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
 			<Int sr="arg6" val="3"/>
 			<Int sr="arg7" val="0"/>
@@ -7655,7 +7737,7 @@ Where
 	</Task>
 	<Task sr="task217">
 		<cdate>1424174576960</cdate>
-		<edate>1446071928897</edate>
+		<edate>1446121979630</edate>
 		<id>217</id>
 		<nme>asms.settings.defaults</nme>
 		<pri>100</pri>
@@ -7676,7 +7758,7 @@ Where
 		<Action sr="act10" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asmsDebug</Str>
-			<Str sr="arg1" ve="3">off</Str>
+			<Str sr="arg1" ve="3">on</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
@@ -7689,7 +7771,7 @@ Where
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%asmsDebug</Str>
+			<Str sr="arg0" ve="3">%voiceStream</Str>
 			<Str sr="arg1" ve="3">media</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -7781,7 +7863,7 @@ Where
 		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_ifSay</Str>
-			<Str sr="arg1" ve="3">on</Str>
+			<Str sr="arg1" ve="3">off</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
@@ -8039,7 +8121,7 @@ Where
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.1_1080p</Str>
 			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -8054,7 +8136,7 @@ Where
 		<id>236</id>
 		<Action sr="act0" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.1_1080p</Str>
 			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -8069,14 +8151,14 @@ Where
 		<id>237</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">omw.setCAL_1080p</Str>
-			<Int sr="arg1" val="3"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="3"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="1"/>
+			<code>548</code>
+			<Str sr="arg0" ve="3">settings saved</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">omw.home_1080p</Str>
 		</Action>
 	</Task>
 	<Task sr="task239">
@@ -8140,7 +8222,7 @@ Where
 			<Int sr="arg1" val="3"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="4"/>
+			<Int sr="arg4" val="7"/>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
@@ -8179,11 +8261,32 @@ Where
 %logtext</Str>
 		</Action>
 	</Task>
+	<Task sr="task245">
+		<cdate>1446009088563</cdate>
+		<edate>1446009088563</edate>
+		<id>245</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">omw.setBT_1080p</Str>
+		</Action>
+	</Task>
 	<Task sr="task246">
 		<cdate>1420300862241</cdate>
 		<edate>1420300862241</edate>
 		<id>246</id>
 		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Saved</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task247">
+		<cdate>1420300862241</cdate>
+		<edate>1420300862241</edate>
+		<id>247</id>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Saved</Str>
@@ -8437,7 +8540,7 @@ Where
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">omw.help.2_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.2_1080p</Str>
 			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -8447,7 +8550,7 @@ Where
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.1_1080p</Str>
 		</Action>
 	</Task>
 	<Task sr="task260">
@@ -8457,7 +8560,7 @@ Where
 		<pri>106</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">omw.help.3_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.3_1080p</Str>
 			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -8467,7 +8570,7 @@ Where
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">omw.help.2_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.2_1080p</Str>
 		</Action>
 	</Task>
 	<Task sr="task261">
@@ -8477,7 +8580,7 @@ Where
 		<pri>108</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">omw.help.3_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.3_1080p</Str>
 		</Action>
 	</Task>
 	<Task sr="task262">
@@ -8487,7 +8590,7 @@ Where
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+			<Str sr="arg0" ve="3">-omw.help.1_1080p</Str>
 			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -8518,7 +8621,7 @@ Where
 	</Task>
 	<Task sr="task266">
 		<cdate>1445755346907</cdate>
-		<edate>1446072017104</edate>
+		<edate>1446122137872</edate>
 		<id>266</id>
 		<nme>___RUN</nme>
 		<pri>100</pri>
@@ -8634,7 +8737,7 @@ Where
 	</Task>
 	<Task sr="task268">
 		<cdate>1445756132921</cdate>
-		<edate>1446060690621</edate>
+		<edate>1446121705494</edate>
 		<id>268</id>
 		<nme>_scene.debug.controller</nme>
 		<Action sr="act0" ve="7">
@@ -8716,11 +8819,12 @@ Where
 	</Task>
 	<Task sr="task269">
 		<cdate>1445756810328</cdate>
-		<edate>1446060757480</edate>
+		<edate>1446121453310</edate>
 		<id>269</id>
 		<nme>_scene.buttons.controller</nme>
 		<Action sr="act0" ve="7">
 			<code>54</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">omw.home_1080p</Str>
 			<Str sr="arg1" ve="3">Calbutton.1080</Str>
 			<Str sr="arg2" ve="3">#FF0069A3</Str>
@@ -8736,7 +8840,7 @@ Where
 			<code>54</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">omw.home_1080p</Str>
-			<Str sr="arg1" ve="3">btButton.1080</Str>
+			<Str sr="arg1" ve="3">BTbutton.1080</Str>
 			<Str sr="arg2" ve="3">#FF0069A3</Str>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -8811,6 +8915,7 @@ Where
 		<cdate>1446009088563</cdate>
 		<edate>1446009088563</edate>
 		<id>271</id>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">omw.setBT_1080p</Str>
@@ -8829,7 +8934,7 @@ Where
 	</Task>
 	<Task sr="task61">
 		<cdate>1419929855168</cdate>
-		<edate>1445837961331</edate>
+		<edate>1446121366389</edate>
 		<id>61</id>
 		<nme>asms.settings</nme>
 		<pri>100</pri>
