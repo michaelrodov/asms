@@ -55,24 +55,24 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1419858421902</cdate>
 		<name>On My Wayz</name>
-		<pids>198,57,203</pids>
+		<pids>203,198,57</pids>
 		<psort>Alpha</psort>
-		<scenes>omw.setCAL_1080p,omw.help.2_1080p,omw.home.side.settings.1080p,omw.home_1080p,omw.help.1_1080p,omw.setBT_1080p</scenes>
-		<tids>78,247,258,263,256,269,180,85,268,172,270,252,65,118,193,259,232,246,234,186,84,241,242,262,235,250,196,272,182,249,61,236,244,260,255,248,237,253,243,240,257,176,295,251,233,265,245,99,261,294,170,133,125,17,271,267,254,266,183,200,199,114,208,184,171,18,201,110,127,217,177,202,178,175,218,185</tids>
+		<scenes>omw.home_1080p,omw.help.1_1080p,omw.setCAL_1080p,omw.setBT_1080p,omw.home.side.settings.1080p,omw.help.2_1080p</scenes>
+		<tids>246,201,263,78,240,256,65,254,245,252,242,133,237,257,262,251,244,233,17,248,260,253,258,182,234,295,294,261,272,114,193,236,270,269,199,176,99,268,243,267,61,255,247,265,235,125,85,250,110,249,118,177,217,232,241,271,259,172,180,84,196,178,127,266,186,184,183,200,171,185,208,170,18,202,218,175</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
-			<eperm0>android.permission.ACCESS_FINE_LOCATION</eperm0>
-			<eperm1>android.permission.READ_CONTACTS</eperm1>
+			<eperm0>android.permission.READ_CONTACTS</eperm0>
+			<eperm1>android.permission.ACCESS_FINE_LOCATION</eperm1>
 			<eperm2>android.permission.WRITE_CALENDAR</eperm2>
 			<feat0>android.hardware.location:y</feat0>
-			<feat1>android.hardware.location.gps:y</feat1>
-			<feat2>android.hardware.bluetooth:y</feat2>
+			<feat1>android.hardware.bluetooth:y</feat1>
+			<feat2>android.hardware.location.gps:y</feat2>
 			<launchID>61</launchID>
 			<pkg>com.rodov.omw</pkg>
 			<vMin>17</vMin>
 			<vnme>1.0.89
-1.2.03</vnme>
-			<vnum>104</vnum>
+1.2.04</vnme>
+			<vnum>105</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -321,7 +321,7 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 	</Scene>
 	<Scene sr="sceneomw.home.side.settings.1080p">
 		<cdate>1445926871665</cdate>
-		<edate>1446283670714</edate>
+		<edate>1446284157577</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1795</heightPort>
 		<nme>omw.home.side.settings.1080p</nme>
@@ -481,7 +481,7 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<flags>4</flags>
 			<geom>702,385,374,75,502,755,375,325</geom>
 			<Str sr="arg0" ve="3">version</Str>
-			<Str sr="arg1" ve="3">1.2.03 xxxhdpi</Str>
+			<Str sr="arg1" ve="3">1.2.04 xxxhdpi</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
@@ -6705,7 +6705,7 @@ Where
 	</Task>
 	<Task sr="task261">
 		<cdate>1445756132921</cdate>
-		<edate>1446206099507</edate>
+		<edate>1446284132378</edate>
 		<id>261</id>
 		<nme>_scene.note.controller</nme>
 		<pri>100</pri>
@@ -6716,6 +6716,13 @@ Where
 			<Str sr="arg1" ve="3">(%asmsNoteFlag + 1) % 3</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs>notoggle</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
@@ -6947,7 +6954,7 @@ Where
 	</Task>
 	<Task sr="task268">
 		<cdate>1445756132921</cdate>
-		<edate>1446141333472</edate>
+		<edate>1446284117773</edate>
 		<id>268</id>
 		<nme>_scene.debug.controller</nme>
 		<rty>1</rty>
@@ -7193,7 +7200,7 @@ Where
 	</Task>
 	<Task sr="task61">
 		<cdate>1419929855168</cdate>
-		<edate>1446282727076</edate>
+		<edate>1446284046232</edate>
 		<id>61</id>
 		<nme>asms.settings</nme>
 		<pri>100</pri>
