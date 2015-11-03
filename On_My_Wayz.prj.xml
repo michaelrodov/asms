@@ -55,14 +55,14 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1419858421902</cdate>
 		<name>On My Wayz</name>
-		<pids>203,57,198</pids>
+		<pids>57,203,198</pids>
 		<psort>Alpha</psort>
-		<scenes>omw.help.2_1080p,omw.home_1080p,omw.setCAL_1080p,omw.help.1_1080p,omw.setBT_1080p,omw.home.side.settings.1080p</scenes>
-		<tids>270,186,254,249,84,256,176,267,78,65,233,268,173,294,261,255,265,232,252,118,133,272,237,251,99,241,175,184,85,243,260,248,110,253,242,240,234,295,269,114,236,244,258,257,18,245,250,262,263,17,182,217,178,170,246,247,177,271,193,200,235,172,180,201,196,202,183,259,199,61,171,125,127,208,185,266,306,218</tids>
+		<scenes>omw.home.side.settings.1080p,omw.help.2_1080p,omw.setCAL_1080p,omw.help.1_1080p,omw.setBT_1080p,omw.home_1080p,omw.help.1080p</scenes>
+		<tids>247,17,257,194,268,180,255,186,196,114,78,269,248,271,233,133,254,240,237,236,173,241,181,261,234,260,252,110,253,183,172,191,244,177,193,178,251,256,127,235,85,246,263,118,204,270,99,243,84,258,182,232,65,184,205,295,262,18,259,249,242,272,175,201,245,250,125,217,202,176,267,199,185,61,200,306,170,266,208,171,218</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
-			<eperm0>android.permission.ACCESS_FINE_LOCATION</eperm0>
-			<eperm1>android.permission.READ_CONTACTS</eperm1>
+			<eperm0>android.permission.READ_CONTACTS</eperm0>
+			<eperm1>android.permission.ACCESS_FINE_LOCATION</eperm1>
 			<eperm2>android.permission.WRITE_CALENDAR</eperm2>
 			<feat0>android.hardware.location:y</feat0>
 			<feat1>android.hardware.bluetooth:y</feat1>
@@ -70,16 +70,123 @@
 			<launchID>61</launchID>
 			<pkg>com.rodov.omw</pkg>
 			<vnme>1.0.89
-1.2.111</vnme>
-			<vnum>112</vnum>
+1.2.115</vnme>
+			<vnum>115</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
 		</Img>
 	</Project>
+	<Scene sr="sceneomw.help.1080p">
+		<cdate>1419930020071</cdate>
+		<edate>1446582153542</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>1920</heightPort>
+		<nme>omw.help.1080p</nme>
+		<widthLand>1062</widthLand>
+		<widthPort>1080</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,51,1080,1800,0,235,1079,1675</geom>
+			<Str sr="arg0" ve="3">image</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Fscreenshots%2Fevent1.png</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,0,1080,435,25,444,786,132</geom>
+			<Str sr="arg0" ve="3">header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%cssPrimDarkColor</Str>
+			<Str sr="arg3" ve="3">%cssPrimDarkColor</Str>
+			<Int sr="arg4" val="4"/>
+			<Str sr="arg5" ve="3">%cssDividerColor</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>77,160,974,150,2,335,675,150</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Setting up your calendar events</Str>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
+			<Str sr="arg5" ve="3">%cssTextTitleFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>77,260,824,150,51,370,834,79</geom>
+			<Str sr="arg0" ve="3">subtitle</Str>
+			<Str sr="arg1" ve="3">setting time, addressee and schedule</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<ImageElement sr="elements4" ve="2">
+			<flags>4</flags>
+			<geom>927,285,128,128,787,346,270,246</geom>
+			<Str sr="arg0" ve="3">BtImage</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+		</ImageElement>
+		<ImageElement sr="elements5" ve="2">
+			<clickTask>191</clickTask>
+			<flags>4</flags>
+			<geom>952,35,99,100,927,35,99,100</geom>
+			<Str sr="arg0" ve="3">Close</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_ab_content_remove</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
+		</ImageElement>
+		<ImageElement sr="elements6" ve="2">
+			<clickTask>194</clickTask>
+			<flags>4</flags>
+			<geom>877,1010,200,200,830,1035,250,250</geom>
+			<Str sr="arg0" ve="3">next</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fnext_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<itemselectedTask>205</itemselectedTask>
+			<keyTask>204</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="2"/>
+			<Str sr="arg4" ve="3">How To</Str>
+			<Str sr="arg5" ve="3">how to setup a calendar event</Str>
+			<Img sr="arg6" ve="2">
+				<nme>hl_ab_action_help</nme>
+			</Img>
+			<Str sr="arg7" ve="3">step 1, step 2, step 3</Str>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+		</PropertiesElement>
+	</Scene>
 	<Scene sr="sceneomw.help.1_1080p">
 		<cdate>1419930020071</cdate>
-		<edate>1446280008335</edate>
+		<edate>1446576051466</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1920</heightPort>
 		<nme>omw.help.1_1080p</nme>
@@ -320,27 +427,16 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 	</Scene>
 	<Scene sr="sceneomw.home.side.settings.1080p">
 		<cdate>1445926871665</cdate>
-		<edate>1446330344644</edate>
+		<edate>1446583827086</edate>
+		<gridSize>15</gridSize>
 		<heightLand>1080</heightLand>
-		<heightPort>1795</heightPort>
+		<heightPort>1760</heightPort>
 		<nme>omw.home.side.settings.1080p</nme>
 		<widthLand>1080</widthLand>
 		<widthPort>1080</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>252,0,828,1795,252,0,824,1080</geom>
-			<Str sr="arg0" ve="3">Base</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFE0E0E0</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#9E000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements1">
-			<flags>4</flags>
-			<geom>252,0,826,485,252,0,827,436</geom>
+			<geom>0,0,1080,500,252,0,827,436</geom>
 			<Str sr="arg0" ve="3">title</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%cssAccentColor</Str>
@@ -350,112 +446,19 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<SpinnerElement sr="elements10">
+		<OvalElement sr="elements1">
 			<flags>4</flags>
-			<geom>427,985,624,75,227,885,607,168</geom>
-			<itemselectedTask>241</itemselectedTask>
-			<Str sr="arg0" ve="3">stream.spinner</Str>
+			<geom>15,572,121,120,277,511,128,128</geom>
+			<Str sr="arg0" ve="3">voice.button.back</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Scene sr="arg3">
-				<Scene sr="val">
-					<cdate>1445838545693</cdate>
-					<edate>1445838545693</edate>
-					<heightLand>168</heightLand>
-					<heightPort>168</heightPort>
-					<nme>spinner</nme>
-					<widthLand>607</widthLand>
-					<widthPort>607</widthPort>
-					<ImageElement sr="elements0" ve="2">
-						<flags>1</flags>
-						<geom>438,15,153,137,438,15,153,137</geom>
-						<Str sr="arg0" ve="3">Icon</Str>
-						<Img sr="arg1" ve="2">
-							<nme>hd_aaa_ext_tiles_small</nme>
-						</Img>
-						<Int sr="arg2" val="255"/>
-						<Str sr="arg3" ve="3">#FF0099CC</Str>
-					</ImageElement>
-					<TextElement sr="elements1" ve="3">
-						<flags>1</flags>
-						<geom>15,15,96,137,15,15,96,137</geom>
-						<Str sr="arg0" ve="3">Index</Str>
-						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="22"/>
-						<Int sr="arg3"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="3"/>
-						<Int sr="arg7"/>
-						<Int sr="arg8"/>
-					</TextElement>
-					<TextElement sr="elements2" ve="3">
-						<flags>5</flags>
-						<geom>105,34,420,83,112,15,310,137</geom>
-						<Str sr="arg0" ve="3">Label</Str>
-						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="20"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
-						<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-						<Int sr="arg6" val="4"/>
-						<Int sr="arg7" val="0"/>
-						<Int sr="arg8" val="0"/>
-					</TextElement>
-					<PropertiesElement sr="props">
-						<Int sr="arg0" val="1"/>
-						<Int sr="arg1" val="0"/>
-						<Str sr="arg2" ve="3">#FFD4D4D4</Str>
-						<Int sr="arg3" val="0"/>
-						<Str sr="arg4" ve="3">spinner</Str>
-						<Str sr="arg5" ve="3"/>
-						<Img sr="arg6" ve="2"/>
-						<Str sr="arg7" ve="3"/>
-					</PropertiesElement>
-				</Scene>
-			</Scene>
-			<Str sr="arg4" ve="3"/>
-			<ListElementItem sr="item0">
-				<label>media</label>
-			</ListElementItem>
-			<ListElementItem sr="item1">
-				<label>call</label>
-			</ListElementItem>
-			<ListElementItem sr="item2">
-				<label>notification</label>
-				<sel>true</sel>
-			</ListElementItem>
-			<ListElementItem sr="item3">
-				<label>system</label>
-			</ListElementItem>
-			<ListElementItem sr="item4">
-				<label>ringer</label>
-			</ListElementItem>
-			<ListElementItem sr="item5">
-				<label>alarm</label>
-			</ListElementItem>
-		</SpinnerElement>
-		<RectElement sr="elements11">
-			<clickTask>265</clickTask>
-			<flags>4</flags>
-			<geom>0,0,251,1795,0,0,251,1080</geom>
-			<strokeTask>294</strokeTask>
-			<Str sr="arg0" ve="3">Click.outside</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#470A0101</Str>
+			<Str sr="arg2" ve="3">%speakerToggleColor</Str>
 			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<StrokeFilter sr="filter2">
-				<dir>Right</dir>
-				<minLength>50</minLength>
-			</StrokeFilter>
-		</RectElement>
-		<OvalElement sr="elements12">
+			<Int sr="arg4" val="5"/>
+			<Str sr="arg5" ve="3">#FF777777</Str>
+		</OvalElement>
+		<OvalElement sr="elements10">
 			<flags>4</flags>
-			<geom>277,1085,127,125,277,511,128,128</geom>
+			<geom>15,1217,121,120,277,511,128,128</geom>
 			<Str sr="arg0" ve="3">note.button.back</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%noteToggleColor</Str>
@@ -463,9 +466,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg4" val="5"/>
 			<Str sr="arg5" ve="3">#FF777777</Str>
 		</OvalElement>
-		<TextElement sr="elements13" ve="3">
+		<TextElement sr="elements11" ve="3">
 			<flags>4</flags>
-			<geom>277,335,549,150,277,335,549,125</geom>
+			<geom>15,347,527,144,277,335,549,125</geom>
 			<Str sr="arg0" ve="3">header.title</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;settings&lt;\b&gt;</Str>
 			<Int sr="arg2" val="30"/>
@@ -476,11 +479,11 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="2"/>
 		</TextElement>
-		<TextElement sr="elements14" ve="3">
+		<TextElement sr="elements12" ve="3">
 			<flags>4</flags>
-			<geom>702,385,374,75,502,755,375,325</geom>
+			<geom>705,407,359,72,502,755,375,325</geom>
 			<Str sr="arg0" ve="3">version</Str>
-			<Str sr="arg1" ve="3">1.2.111 xxxhdpi</Str>
+			<Str sr="arg1" ve="3">1.2.115 xxxhdpi</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
@@ -489,24 +492,24 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements15" ve="3">
+		<TextElement sr="elements13" ve="3">
 			<clickTask>263</clickTask>
 			<flags>4</flags>
-			<geom>402,1560,425,125,402,1560,425,150</geom>
+			<geom>165,1622,599,120,402,1560,425,150</geom>
 			<Str sr="arg0" ve="3">taskerText</Str>
 			<Str sr="arg1" ve="3">Tasker based.</Str>
 			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
 			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg6" val="3"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<ImageElement sr="elements16" ve="2">
+		<ImageElement sr="elements14" ve="2">
 			<clickTask>258</clickTask>
 			<flags>4</flags>
-			<geom>277,1560,128,128,277,1560,128,128</geom>
+			<geom>15,1622,122,123,277,1560,128,128</geom>
 			<Str sr="arg0" ve="3">taskerImg</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_zzz_tasker</nme>
@@ -514,9 +517,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg2" val="255"/>
 			<Str sr="arg3" ve="3">#32FFD700</Str>
 		</ImageElement>
-		<TextElement sr="elements17" ve="3">
+		<TextElement sr="elements15" ve="3">
 			<flags>4</flags>
-			<geom>427,1085,627,135,427,511,625,125</geom>
+			<geom>180,1202,854,135,427,511,625,125</geom>
 			<Str sr="arg0" ve="3">note.button.text</Str>
 			<Str sr="arg1" ve="3">%noteToggleText</Str>
 			<Int sr="arg2" val="20"/>
@@ -527,10 +530,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<ImageElement sr="elements18" ve="2">
+		<ImageElement sr="elements16" ve="2">
 			<clickTask>260</clickTask>
 			<flags>4</flags>
-			<geom>277,1085,124,125,277,511,128,128</geom>
+			<geom>15,1217,119,120,277,511,128,128</geom>
 			<Str sr="arg0" ve="3">note.button.img</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_aaa_nixx_bolt</nme>
@@ -550,9 +553,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
-		<TextElement sr="elements19" ve="3">
+		<TextElement sr="elements17" ve="3">
 			<flags>4</flags>
-			<geom>452,585,599,75,302,610,674,125</geom>
+			<geom>195,632,839,72,302,610,674,125</geom>
 			<Str sr="arg0" ve="3">voice.testing.explanation</Str>
 			<Str sr="arg1" ve="3">* long click to test function</Str>
 			<Int sr="arg2" val="16"/>
@@ -563,20 +566,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<OvalElement sr="elements2">
-			<flags>4</flags>
-			<geom>277,510,127,125,277,511,128,128</geom>
-			<Str sr="arg0" ve="3">voice.button.back</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%speakerToggleColor</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="5"/>
-			<Str sr="arg5" ve="3">#FF777777</Str>
-		</OvalElement>
-		<ImageElement sr="elements3" ve="2">
+		<ImageElement sr="elements2" ve="2">
 			<clickTask>234</clickTask>
 			<flags>4</flags>
-			<geom>277,511,128,128,277,511,128,128</geom>
+			<geom>15,572,122,123,277,511,128,128</geom>
 			<longclickTask>173</longclickTask>
 			<Str sr="arg0" ve="3">voice.button.img</Str>
 			<Img sr="arg1" ve="2">
@@ -597,9 +590,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
-		<TextElement sr="elements4" ve="3">
+		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>427,485,625,125,427,511,625,125</geom>
+			<geom>180,527,854,120,427,511,625,125</geom>
 			<Str sr="arg0" ve="3">voice.button.text</Str>
 			<Str sr="arg1" ve="3">%speakerToggleText</Str>
 			<Int sr="arg2" val="20"/>
@@ -610,9 +603,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements5" ve="3">
+		<TextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>427,885,627,136,427,511,625,125</geom>
+			<geom>180,947,854,130,427,511,625,125</geom>
 			<Str sr="arg0" ve="3">stream.button.text</Str>
 			<Str sr="arg1" ve="3">stream voice via</Str>
 			<Int sr="arg2" val="20"/>
@@ -623,9 +616,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<OvalElement sr="elements6">
+		<OvalElement sr="elements5">
 			<flags>4</flags>
-			<geom>277,735,127,124,277,511,128,128</geom>
+			<geom>15,767,121,119,277,511,128,128</geom>
 			<Str sr="arg0" ve="3">debug.button.back</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%debugToggleColor</Str>
@@ -633,9 +626,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg4" val="5"/>
 			<Str sr="arg5" ve="3">#FF777777</Str>
 		</OvalElement>
-		<ImageElement sr="elements7" ve="2">
+		<ImageElement sr="elements6" ve="2">
 			<flags>4</flags>
-			<geom>277,935,127,125,277,511,128,128</geom>
+			<geom>15,992,121,120,277,511,128,128</geom>
 			<Str sr="arg0" ve="3">stream.button.img</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_av_shuffle</nme>
@@ -655,9 +648,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
-		<TextElement sr="elements8" ve="3">
+		<TextElement sr="elements7" ve="3">
 			<flags>4</flags>
-			<geom>427,735,624,136,427,511,625,125</geom>
+			<geom>180,752,854,130,427,511,625,125</geom>
 			<Str sr="arg0" ve="3">debug.button.text</Str>
 			<Str sr="arg1" ve="3">%debugToggleText</Str>
 			<Int sr="arg2" val="20"/>
@@ -668,10 +661,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<ImageElement sr="elements9" ve="2">
+		<ImageElement sr="elements8" ve="2">
 			<clickTask>242</clickTask>
 			<flags>4</flags>
-			<geom>277,735,127,124,277,511,128,128</geom>
+			<geom>15,767,121,119,277,511,128,128</geom>
 			<Str sr="arg0" ve="3">debug.button.img</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_aaa_ext_bug</nme>
@@ -691,15 +684,102 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
+		<SpinnerElement sr="elements9">
+			<flags>4</flags>
+			<geom>180,1067,599,100,227,885,607,168</geom>
+			<itemselectedTask>241</itemselectedTask>
+			<Str sr="arg0" ve="3">stream.spinner</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Scene sr="arg3">
+				<Scene sr="val">
+					<cdate>1445838545693</cdate>
+					<edate>1445838545693</edate>
+					<heightLand>168</heightLand>
+					<heightPort>161</heightPort>
+					<nme>spinner</nme>
+					<widthLand>607</widthLand>
+					<widthPort>582</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>1</flags>
+						<geom>420,14,146,131,438,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+						<Str sr="arg3" ve="3">#FF0099CC</Str>
+					</ImageElement>
+					<TextElement sr="elements1" ve="3">
+						<flags>1</flags>
+						<geom>14,14,92,131,15,15,96,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="22"/>
+						<Int sr="arg3"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>5</flags>
+						<geom>100,8,403,142,112,15,310,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="20"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
+						<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+						<Int sr="arg6" val="4"/>
+						<Int sr="arg7" val="1"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#FFD4D4D4</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">spinner</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Str sr="arg4" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>ringer</label>
+				<sel>true</sel>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>media</label>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>call</label>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>notification</label>
+			</ListElementItem>
+			<ListElementItem sr="item4">
+				<label>system</label>
+			</ListElementItem>
+			<ListElementItem sr="item5">
+				<label>alarm</label>
+			</ListElementItem>
+		</SpinnerElement>
 		<PropertiesElement sr="props">
 			<keyTask>295</keyTask>
-			<Int sr="arg0" val="1"/>
+			<Int sr="arg0" val="2"/>
 			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Str sr="arg2" ve="3">#FFF1F1F1</Str>
 			<Int sr="arg3" val="2"/>
 			<Str sr="arg4" ve="3">settings</Str>
 			<Str sr="arg5" ve="3"/>
-			<Img sr="arg6" ve="2"/>
+			<Img sr="arg6" ve="2">
+				<nme>hl_aaa_ext_gear</nme>
+			</Img>
 			<Str sr="arg7" ve="3"/>
 			<LinkClickFilter sr="filter0">
 				<stopEvent>true</stopEvent>
@@ -712,22 +792,36 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 					<Int sr="arg1" val="5"/>
 				</Action>
 				<Img sr="icon" ve="2">
-					<nme>hl_ab_content_remove</nme>
+					<nme>hl_ab_navigation_forward</nme>
 				</Img>
 			</ListElementItem>
 		</PropertiesElement>
 	</Scene>
 	<Scene sr="sceneomw.home_1080p">
 		<cdate>1444468910718</cdate>
-		<edate>1446282458696</edate>
+		<edate>1446583051760</edate>
+		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
-		<heightPort>1920</heightPort>
+		<heightPort>1845</heightPort>
 		<nme>omw.home_1080p</nme>
 		<widthLand>1080</widthLand>
-		<widthPort>1080</widthPort>
-		<ImageElement sr="elements0" ve="2">
+		<widthPort>1037</widthPort>
+		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>327,154,400,400,525,105,525,975</geom>
+			<geom>0,201,1037,221,51,105,980,400</geom>
+			<Str sr="arg0" ve="3">logo.shadow</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">#FFD0D0D0</Str>
+			<Str sr="arg3" ve="3">#00F1F1F1</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements1" ve="2">
+			<flags>4</flags>
+			<geom>305,110,384,384,525,105,525,975</geom>
+			<longclickTask>181</longclickTask>
 			<Str sr="arg0" ve="3">home.logo</Str>
 			<Img sr="arg1" ve="2">
 				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -747,22 +841,20 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
-		<RectElement sr="elements1">
+		<OvalElement sr="elements10">
 			<flags>4</flags>
-			<geom>27,1385,1024,450,0,777,1078,303</geom>
-			<Str sr="arg0" ve="3">footer.1080</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">%cssDividerColor</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FFD4D4D4</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="2"/>
-		</RectElement>
-		<ImageElement sr="elements10" ve="2">
+			<geom>49,1547,134,134,27,1660,125,125</geom>
+			<Str sr="arg0" ve="3">email.background</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%cssAccentColor</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="15"/>
+			<Str sr="arg5" ve="3">#FF797979</Str>
+		</OvalElement>
+		<ImageElement sr="elements11" ve="2">
 			<clickTask>253</clickTask>
 			<flags>4</flags>
-			<geom>77,1635,96,96,0,696,384,384</geom>
+			<geom>73,1571,92,92,0,696,384,384</geom>
 			<Str sr="arg0" ve="3">Email.1080</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_content_edit</nme>
@@ -770,9 +862,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg2" val="255"/>
 			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
 		</ImageElement>
-		<RectElement sr="elements11">
+		<RectElement sr="elements12">
 			<flags>4</flags>
-			<geom>0,1380,1080,5,0,0,1080,654</geom>
+			<geom>0,1326,1037,4,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.body.footer.shadow</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#D46C6C6C</Str>
@@ -782,9 +874,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements12">
+		<RectElement sr="elements13">
 			<flags>4</flags>
-			<geom>152,1179,799,175,102,1079,774,129</geom>
+			<geom>145,1132,767,168,102,1079,774,129</geom>
 			<Str sr="arg0" ve="3">save.button.shadow.1080</Str>
 			<Int sr="arg1" val="5"/>
 			<Str sr="arg2" ve="3">#15333333</Str>
@@ -794,10 +886,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<ImageElement sr="elements13" ve="2">
+		<ImageElement sr="elements14" ve="2">
 			<clickTask>262</clickTask>
 			<flags>4</flags>
-			<geom>52,1435,128,128,427,805,250,275</geom>
+			<geom>49,1378,122,123,427,805,250,275</geom>
 			<Str sr="arg0" ve="3">Help.1080</Str>
 			<Img sr="arg1" ve="2">
 				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -805,10 +897,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg2" val="255"/>
 			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
 		</ImageElement>
-		<TextElement sr="elements14" ve="3">
+		<TextElement sr="elements15" ve="3">
 			<clickTask>235</clickTask>
 			<flags>4</flags>
-			<geom>202,1410,874,175,352,1304,625,150</geom>
+			<geom>193,1354,839,168,352,1304,625,150</geom>
 			<Str sr="arg0" ve="3">help.text.e</Str>
 			<Str sr="arg1" ve="3">how do i create a calendar event</Str>
 			<Int sr="arg2" val="21"/>
@@ -831,12 +923,12 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<TextElement sr="elements15" ve="3">
+		<TextElement sr="elements16" ve="3">
 			<clickTask>237</clickTask>
 			<flags>4</flags>
-			<geom>177,1204,752,129,402,1210,600,175</geom>
+			<geom>169,1156,722,123,402,1210,600,175</geom>
 			<Str sr="arg0" ve="3">save.button.1080</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;SAVE AND EXIT&lt;/b&gt;</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;SAVE &amp; CLOSE&lt;/b&gt;</Str>
 			<Int sr="arg2" val="25"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
@@ -857,9 +949,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<RectElement sr="elements16">
+		<RectElement sr="elements17">
 			<flags>4</flags>
-			<geom>527,1379,551,10,0,0,1080,654</geom>
+			<geom>506,1326,529,9,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.title.shadow.right</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">#D46C6C6C</Str>
@@ -869,9 +961,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements17">
+		<RectElement sr="elements18">
 			<flags>4</flags>
-			<geom>0,1379,550,10,0,0,1080,654</geom>
+			<geom>0,1326,528,9,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.title.shadow.left</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">#00000000</Str>
@@ -881,10 +973,22 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements2" ve="3">
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>25,1330,983,432,0,777,1078,303</geom>
+			<Str sr="arg0" ve="3">footer.1080</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%cssDividerColor</Str>
+			<Str sr="arg3" ve="3">#00000000</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FFD4D4D4</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<TextElement sr="elements3" ve="3">
 			<clickTask>252</clickTask>
 			<flags>4</flags>
-			<geom>202,1610,749,125,277,780,637,300</geom>
+			<geom>193,1547,719,120,277,780,637,300</geom>
 			<Str sr="arg0" ve="3">Email.text.1080</Str>
 			<Str sr="arg1" ve="3">contact developer</Str>
 			<Int sr="arg2" val="21"/>
@@ -907,9 +1011,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<TextElement sr="elements3" ve="3">
+		<TextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>27,604,950,110,15,303,637,187</geom>
+			<geom>25,580,912,105,15,303,637,187</geom>
 			<Str sr="arg0" ve="3">Text.1080.1</Str>
 			<Str sr="arg1" ve="3">Send a text message, when</Str>
 			<Int sr="arg2" val="22"/>
@@ -920,9 +1024,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="2"/>
 		</TextElement>
-		<TextElement sr="elements4" ve="3">
+		<TextElement sr="elements5" ve="3">
 			<flags>4</flags>
-			<geom>0,704,451,125,15,378,562,150</geom>
+			<geom>0,676,433,120,15,378,562,150</geom>
 			<Str sr="arg0" ve="3">text.connected.1080.2</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;connected to&lt;\b&gt;</Str>
 			<Int sr="arg2" val="22"/>
@@ -933,10 +1037,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="2"/>
 		</TextElement>
-		<TextElement sr="elements5" ve="3">
+		<TextElement sr="elements6" ve="3">
 			<clickTask>236</clickTask>
 			<flags>4</flags>
-			<geom>27,829,1012,112,15,303,637,187</geom>
+			<geom>25,796,971,107,15,303,637,187</geom>
 			<Str sr="arg0" ve="3">Text.1080.3</Str>
 			<Str sr="arg1" ve="3">and there's an &lt;font color='#02A7F2'&gt;active event&lt;/font&gt; in this</Str>
 			<Int sr="arg2" val="22"/>
@@ -947,9 +1051,9 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="2"/>
 		</TextElement>
-		<TextElement sr="elements6" ve="3">
+		<TextElement sr="elements7" ve="3">
 			<flags>4</flags>
-			<geom>27,929,390,125,15,303,637,187</geom>
+			<geom>30,910,354,120,15,303,637,187</geom>
 			<Str sr="arg0" ve="3">text.calendar.1080.4</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;calendar&lt;\b&gt;</Str>
 			<Int sr="arg2" val="22"/>
@@ -960,10 +1064,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="2"/>
 		</TextElement>
-		<TextElement sr="elements7" ve="3">
+		<TextElement sr="elements8" ve="3">
 			<clickTask>243</clickTask>
 			<flags>4</flags>
-			<geom>452,704,599,125,402,1210,600,175</geom>
+			<geom>430,685,575,120,402,1210,600,175</geom>
 			<Str sr="arg0" ve="3">BTbutton.1080</Str>
 			<Str sr="arg1" ve="3">%asms_carBluetoothName</Str>
 			<Int sr="arg2" val="20"/>
@@ -986,10 +1090,10 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<TextElement sr="elements8" ve="3">
+		<TextElement sr="elements9" ve="3">
 			<clickTask>254</clickTask>
 			<flags>4</flags>
-			<geom>302,929,749,125,402,1210,600,175</geom>
+			<geom>330,910,674,120,402,1210,600,175</geom>
 			<Str sr="arg0" ve="3">Calbutton.1080</Str>
 			<Str sr="arg1" ve="3">%asms_calendarNameFull</Str>
 			<Int sr="arg2" val="20"/>
@@ -1012,16 +1116,6 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<OvalElement sr="elements9">
-			<flags>4</flags>
-			<geom>52,1610,140,140,27,1660,125,125</geom>
-			<Str sr="arg0" ve="3">email.background</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%cssAccentColor</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="15"/>
-			<Str sr="arg5" ve="3">#FF797979</Str>
-		</OvalElement>
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="2"/>
 			<Int sr="arg1" val="2"/>
@@ -3066,6 +3160,18 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 		<edate>1446303782980</edate>
 		<id>173</id>
 		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">start</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>171</code>
+			<Int sr="arg0" val="8000"/>
+			<Int sr="arg1" val="1000"/>
+			<Int sr="arg2" val="50"/>
+			<Int sr="arg3" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_talk</Str>
 			<Int sr="arg1">
@@ -3076,16 +3182,11 @@ Word wrapped by hash tags '#' will be replaced by calculated values according to
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">On My Wayz</Str>
-			<Str sr="arg1" ve="3">Voice test was triggered. Did you hear it?</Str>
-			<Img sr="arg2" ve="2">
-				<nme>hd_aaa_ext_android</nme>
-			</Img>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Streaming via %voiceStream.
+Did you hear it?</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task175">
@@ -4585,6 +4686,30 @@ Where
 			<nme>hd_content_event</nme>
 		</Img>
 	</Task>
+	<Task sr="task181">
+		<cdate>1446582994041</cdate>
+		<edate>1446582994041</edate>
+		<id>181</id>
+		<pri>103</pri>
+		<Action sr="act0" ve="7">
+			<code>171</code>
+			<Int sr="arg0" val="8000"/>
+			<Int sr="arg1" val="1000"/>
+			<Int sr="arg2" val="50"/>
+			<Int sr="arg3" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">asms.send.arrival_time</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task182">
 		<cdate>1390036251369</cdate>
 		<edate>1420636508903</edate>
@@ -5474,6 +5599,21 @@ Where
 			<nme>hd_content_event</nme>
 		</Img>
 	</Task>
+	<Task sr="task191">
+		<cdate>1446009088563</cdate>
+		<edate>1446009088563</edate>
+		<id>191</id>
+		<pri>105</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+			<Int sr="arg1" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+		</Action>
+	</Task>
 	<Task sr="task193">
 		<cdate>1386442437464</cdate>
 		<edate>1446151707669</edate>
@@ -5578,6 +5718,26 @@ Where
 		<Img sr="icn" ve="2">
 			<nme>hd_ab_device_access_location_found</nme>
 		</Img>
+	</Task>
+	<Task sr="task194">
+		<cdate>1446153174257</cdate>
+		<edate>1446153174257</edate>
+		<id>194</id>
+		<pri>105</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">omw.help.2_1080p</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+		</Action>
 	</Task>
 	<Task sr="task196">
 		<cdate>1421791686258</cdate>
@@ -5789,6 +5949,37 @@ Where
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task204">
+		<cdate>1420300862241</cdate>
+		<edate>1420300862241</edate>
+		<id>204</id>
+		<pri>105</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Saved</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+			<Int sr="arg1" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
+		</Action>
+	</Task>
+	<Task sr="task205">
+		<cdate>1446576326087</cdate>
+		<edate>1446576326087</edate>
+		<id>205</id>
+		<pri>105</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">tab1</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task208">
 		<cdate>1399490551141</cdate>
 		<edate>1423663483946</edate>
@@ -5895,7 +6086,7 @@ Where
 	</Task>
 	<Task sr="task217">
 		<cdate>1424174576960</cdate>
-		<edate>1446320979817</edate>
+		<edate>1446583786773</edate>
 		<id>217</id>
 		<nme>asms.settings.defaults</nme>
 		<pri>100</pri>
@@ -5937,7 +6128,7 @@ Where
 		<Action sr="act12" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asmsDebug</Str>
-			<Str sr="arg1" ve="3">on</Str>
+			<Str sr="arg1" ve="3">off</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
@@ -5951,7 +6142,7 @@ Where
 		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%voiceStream</Str>
-			<Str sr="arg1" ve="3">notification</Str>
+			<Str sr="arg1" ve="3">ringer</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
@@ -6080,7 +6271,7 @@ Where
 	</Task>
 	<Task sr="task218">
 		<cdate>1442582577706</cdate>
-		<edate>1446326015997</edate>
+		<edate>1446573438110</edate>
 		<id>218</id>
 		<nme>___testArrivalTimeNoRecipient</nme>
 		<pri>100</pri>
@@ -6234,8 +6425,19 @@ Where
 		<pri>103</pri>
 		<Action sr="act0" ve="7">
 			<code>47</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">omw.help.1_1080p</Str>
 			<Int sr="arg1" val="9"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="7"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">omw.help.1080p</Str>
+			<Int sr="arg1" val="8"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
 			<Int sr="arg4" val="7"/>
@@ -6283,7 +6485,7 @@ Where
 		<cdate>1446009088563</cdate>
 		<edate>1446009088563</edate>
 		<id>240</id>
-		<pri>106</pri>
+		<pri>107</pri>
 		<Action sr="act0" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">omw.help.2_1080p</Str>
@@ -6703,7 +6905,7 @@ Where
 	</Task>
 	<Task sr="task259">
 		<cdate>1446191789397</cdate>
-		<edate>1446320264075</edate>
+		<edate>1446482326893</edate>
 		<id>259</id>
 		<nme>_alert.notify</nme>
 		<pri>100</pri>
@@ -6967,24 +7169,9 @@ Where
 			<Str sr="arg0" ve="3">http://tasker.dinglisch.net/</Str>
 		</Action>
 	</Task>
-	<Task sr="task265">
-		<cdate>1446009208271</cdate>
-		<edate>1446009208271</edate>
-		<id>265</id>
-		<pri>104</pri>
-		<Action sr="act0" ve="7">
-			<code>48</code>
-			<Str sr="arg0" ve="3">omw.home.side.settings.1080p</Str>
-			<Int sr="arg1" val="5"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">omw.home.side.settings.1080p</Str>
-		</Action>
-	</Task>
 	<Task sr="task266">
 		<cdate>1445755346907</cdate>
-		<edate>1446326048884</edate>
+		<edate>1446583815341</edate>
 		<id>266</id>
 		<nme>___testUI</nme>
 		<pri>100</pri>
@@ -7320,16 +7507,6 @@ Where
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task294">
-		<cdate>1446278412779</cdate>
-		<edate>1446278412779</edate>
-		<id>294</id>
-		<Action sr="act0" ve="7">
-			<code>48</code>
-			<Str sr="arg0" ve="3">omw.home.side.settings.1080p</Str>
-			<Int sr="arg1" val="5"/>
-		</Action>
-	</Task>
 	<Task sr="task295">
 		<cdate>1446278651750</cdate>
 		<edate>1446278651750</edate>
@@ -7338,10 +7515,6 @@ Where
 			<code>48</code>
 			<Str sr="arg0" ve="3">omw.home.side.settings.1080p</Str>
 			<Int sr="arg1" val="5"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">omw.home.side.settings.1080p</Str>
 		</Action>
 	</Task>
 	<Task sr="task306">
@@ -7401,7 +7574,7 @@ Where
 	</Task>
 	<Task sr="task61">
 		<cdate>1419929855168</cdate>
-		<edate>1446320795834</edate>
+		<edate>1446583241299</edate>
 		<id>61</id>
 		<nme>asms.settings</nme>
 		<pri>100</pri>
