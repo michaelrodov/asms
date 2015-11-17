@@ -12,7 +12,7 @@ Nexus S                                  800 x  480     hdpi    1.5     240     
 Galaxy SIII                             1280 x  720     xhdpi   2       320      640 x 360      16:9    1.7778                   640 x 360
 Galaxy Nexus                            1280 x  720     xhdpi   2       320      640 x 360      16:9    1.7778                   640 x 360
 HTC One X                       4.7"    1280 x  720     xhdpi   2       320      640 x 360      16:9    1.7778                   640 x 360
-Nexus 5                         5"      1920 x 1080     xxhdpi  3       480      640 x 360      16:9    1.7778      YES          592 x 360
+Nexus 5                         5"      	 x 1080     xxhdpi  3       480      640 x 360      16:9    1.7778      YES          592 x 360
 Galaxy S4                       5"      1920 x 1080     xxhdpi  3       480      640 x 360      16:9    1.7778                   640 x 360
 HTC One                         5"      1920 x 1080     xxhdpi  3       480      640 x 360      16:9    1.7778                   640 x 360
 Galaxy Note III                 5.7"    1920 x 1080     xxhdpi  3       480      640 x 360      16:9    1.7778                   640 x 360
