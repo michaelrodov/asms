@@ -12,8 +12,8 @@
 			<wday0>4</wday0>
 			<wday1>1</wday1>
 			<wday2>7</wday2>
-			<wday3>3</wday3>
-			<wday4>2</wday4>
+			<wday3>2</wday3>
+			<wday4>3</wday4>
 		</Day>
 		<Time sr="con1">
 			<fh>-1</fh>
@@ -943,11 +943,11 @@ Way the message was sent (BT, Wifi, GCM)
 	</Project>
 	<Project sr="proj1" ve="2">
 		<cdate>1419858421902</cdate>
-		<mdate>1448035719648</mdate>
+		<mdate>1448125333037</mdate>
 		<name>On My Wayz Notification</name>
 		<pids>57,203,198</pids>
 		<psort>Alpha</psort>
-		<scenes>omw.settings.200dp,omw.settings.1080p,omw.setcal.200dp,omw.setcal.1080p,omw.setbt.1080p,omw.home.200dp,omw.home.1080p,omw.home.300dp,omw.setbt.300dp,omw.setcal.300dp,omw.settings.300dp,omw.help.1080p,omw.help.300dp,omw.help.200dp</scenes>
+		<scenes>omw.settings.200dp,omw.settings.1080p,omw.setcal.200dp,omw.setcal.1080p,omw.setbt.1080p,omw.home.200dp,omw.home.1080p,omw.home.300dp,omw.setbt.300dp,omw.setcal.300dp,omw.settings.300dp,omw.help.1080p,omw.help.300dp,omw.help.200dp,omw.setbt.200dp</scenes>
 		<ssort>Alpha</ssort>
 		<tids>17,118,99,133,85,18,65,127,110,114,84,125,61,170,176,177,171,175,172,180,182,185,178,184,183,186,78,193,196,199,200,201,202,208,217,218,244,249,250,266,267,268,269,232,259,261,306,209,210,287,288,325</tids>
 		<tsort>Alpha</tsort>
@@ -956,13 +956,13 @@ Way the message was sent (BT, Wifi, GCM)
 			<eperm1>android.permission.READ_CONTACTS</eperm1>
 			<eperm2>android.permission.WRITE_CALENDAR</eperm2>
 			<feat0>android.hardware.location:y</feat0>
-			<feat1>android.hardware.location.gps:y</feat1>
-			<feat2>android.hardware.bluetooth:y</feat2>
+			<feat1>android.hardware.bluetooth:y</feat1>
+			<feat2>android.hardware.location.gps:y</feat2>
 			<launchID>61</launchID>
 			<pkg>com.rodov.me.omw</pkg>
 			<vnme>1.0.89
-1.2.132</vnme>
-			<vnum>132</vnum>
+1.2.240</vnme>
+			<vnum>139</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -996,8 +996,8 @@ Way the message was sent (BT, Wifi, GCM)
 		<tids>166,165,188,88,86,187,192,206,207,174</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
-			<eperm0>GET_TASKS</eperm0>
-			<eperm1>android.permission.READ_CONTACTS</eperm1>
+			<eperm0>android.permission.READ_CONTACTS</eperm0>
+			<eperm1>GET_TASKS</eperm1>
 			<eperm2>WRITE_CONTACTS</eperm2>
 			<launchID>188</launchID>
 			<pkg>com.rodov.test</pkg>
@@ -3072,7 +3072,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.help.1080p">
 		<cdate>1419930020071</cdate>
-		<edate>1448036434537</edate>
+		<edate>1448997480649</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -3197,7 +3197,7 @@ On</Str>
 		</RectElement>
 		<RectElement sr="elements5">
 			<flags>4</flags>
-			<geom>0,1480,1079,170,140,1600,809,170</geom>
+			<geom>0,1480,1080,170,140,1600,809,170</geom>
 			<Str sr="arg0" ve="3">buttonBackground</Str>
 			<Int sr="arg1" val="5"/>
 			<Str sr="arg2" ve="3">#86333333</Str>
@@ -3914,7 +3914,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.help.200dp">
 		<cdate>1419930020071</cdate>
-		<edate>1448006374978</edate>
+		<edate>1448129998426</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>960</heightPort>
@@ -3934,11 +3934,11 @@ On</Str>
 		<TextElement sr="elements1" ve="3">
 			<clickTask>236</clickTask>
 			<flags>4</flags>
-			<geom>60,840,419,90,402,1210,600,175</geom>
+			<geom>80,840,379,90,402,1210,600,175</geom>
 			<Str sr="arg0" ve="3">next.button.1080</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;create sample event&lt;/b&gt;</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain+2</var>
+				<var>%cssFontSizeMain</var>
 			</Int>
 			<Int sr="arg3" val="90"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
@@ -4318,7 +4318,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.help.300dp">
 		<cdate>1419930020071</cdate>
-		<edate>1448032268494</edate>
+		<edate>1448129957624</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1024</heightPort>
@@ -5255,7 +5255,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.home.1080p">
 		<cdate>1444468910718</cdate>
-		<edate>1448043895968</edate>
+		<edate>1448997452888</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -5628,7 +5628,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.home.200dp">
 		<cdate>1444468910718</cdate>
-		<edate>1448015439023</edate>
+		<edate>1448131827330</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>960</heightPort>
@@ -5637,144 +5637,19 @@ On</Str>
 		<widthPort>540</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>0,42,540,90,51,105,980,400</geom>
-			<Str sr="arg0" ve="3">logo.shadow</Str>
-			<Int sr="arg1" val="5"/>
-			<Str sr="arg2" ve="3">#FFD0D0D0</Str>
-			<Str sr="arg3" ve="3">#00F1F1F1</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<ImageElement sr="elements1" ve="2">
-			<flags>4</flags>
-			<geom>190,0,164,164,525,105,525,975</geom>
-			<longclickTask>255</longclickTask>
-			<Str sr="arg0" ve="3">home.logo</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">#FF0099CC</Str>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</ImageElement>
-		<ImageElement sr="elements10" ve="2">
-			<clickTask>312</clickTask>
-			<flags>4</flags>
-			<geom>20,830,50,50,0,696,384,384</geom>
-			<Str sr="arg0" ve="3">Email.1080</Str>
-			<Img sr="arg1" ve="2">
-				<nme>hl_content_edit</nme>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
-		</ImageElement>
-		<RectElement sr="elements11">
-			<flags>4</flags>
-			<geom>0,956,540,4,0,0,1080,654</geom>
-			<Str sr="arg0" ve="3">home.body.footer.shadow</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#D46C6C6C</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
+			<geom>10,720,519,240,0,0,1080,654</geom>
+			<Str sr="arg0" ve="3">home.body.big.footer.shadow</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#52A6A6A6</Str>
+			<Str sr="arg3" ve="3">#00FFFFFF</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#91000000</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements12">
+		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>0,640,540,80,102,1079,774,129</geom>
-			<Str sr="arg0" ve="3">save.button.shadow.1080</Str>
-			<Int sr="arg1" val="5"/>
-			<Str sr="arg2" ve="3">#15333333</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<ImageElement sr="elements13" ve="2">
-			<clickTask>313</clickTask>
-			<flags>4</flags>
-			<geom>10,740,72,72,427,805,250,275</geom>
-			<Str sr="arg0" ve="3">Help.1080</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
-		</ImageElement>
-		<TextElement sr="elements14" ve="3">
-			<clickTask>314</clickTask>
-			<flags>4</flags>
-			<geom>80,740,459,70,352,1304,625,150</geom>
-			<Str sr="arg0" ve="3">help.text.e</Str>
-			<Str sr="arg1" ve="3">create sample calendar event</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain720</var>
-			</Int>
-			<Int sr="arg3" val="90"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<TextElement sr="elements15" ve="3">
-			<clickTask>315</clickTask>
-			<flags>4</flags>
-			<geom>40,650,459,60,402,1210,600,175</geom>
-			<Str sr="arg0" ve="3">save.button.1080</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;SAVE &amp; CLOSE&lt;/b&gt;</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain+4</var>
-			</Int>
-			<Int sr="arg3" val="95"/>
-			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="2"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#FF3CA819</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="5"/>
-				<Str sr="arg5" ve="3">#FF0BB000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<RectElement sr="elements16">
-			<flags>4</flags>
-			<geom>11,951,529,9,0,0,1080,654</geom>
+			<geom>270,720,269,8,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.title.shadow.right</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">#D46C6C6C</Str>
@@ -5784,139 +5659,10 @@ On</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements17">
-			<flags>4</flags>
-			<geom>0,951,528,9,0,0,1080,654</geom>
-			<Str sr="arg0" ve="3">home.title.shadow.left</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">#00000000</Str>
-			<Str sr="arg3" ve="3">#D46C6C6C</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#91000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements2" ve="3">
-			<clickTask>271</clickTask>
-			<flags>4</flags>
-			<geom>80,820,459,70,277,780,637,300</geom>
-			<Str sr="arg0" ve="3">Email.text.1080</Str>
-			<Str sr="arg1" ve="3">contact developer</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain720</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="2"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#00E5E5E5</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#7AE3E3E3</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<TextElement sr="elements3" ve="3">
-			<flags>4</flags>
-			<geom>10,200,519,70,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">Text.1080.1</Str>
-			<Str sr="arg1" ve="3">Send a text message, when</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements4" ve="3">
-			<flags>4</flags>
-			<geom>10,260,259,70,15,378,562,150</geom>
-			<Str sr="arg0" ve="3">text.connected.1080.2</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;connected to&lt;\b&gt;</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements5" ve="3">
-			<clickTask>293</clickTask>
-			<flags>4</flags>
-			<geom>10,410,519,120,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">Text.1080.3</Str>
-			<Str sr="arg1" ve="3">and there's an &lt;font color='#02A7F2'&gt;active event&lt;/font&gt; in this</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements6" ve="3">
-			<flags>4</flags>
-			<geom>10,530,179,80,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">text.calendar.1080.4</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;calendar&lt;\b&gt;</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements7" ve="3">
-			<clickTask>303</clickTask>
-			<flags>4</flags>
-			<geom>150,330,369,70,402,1210,600,175</geom>
-			<Str sr="arg0" ve="3">BTbutton.1080</Str>
-			<Str sr="arg1" ve="3">%asms_carBluetoothName</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#80D8D8D8</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="5"/>
-				<Str sr="arg5" ve="3">#FF7E7E7E</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<TextElement sr="elements8" ve="3">
+		<TextElement sr="elements10" ve="3">
 			<clickTask>311</clickTask>
 			<flags>4</flags>
-			<geom>190,530,309,80,402,1210,600,175</geom>
+			<geom>160,510,369,80,402,1210,600,175</geom>
 			<Str sr="arg0" ve="3">Calbutton.1080</Str>
 			<Str sr="arg1" ve="3">%asms_calendarNameFull</Str>
 			<Int sr="arg2">
@@ -5941,9 +5687,9 @@ On</Str>
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<OvalElement sr="elements9">
+		<OvalElement sr="elements11">
 			<flags>4</flags>
-			<geom>10,820,72,72,27,1660,125,125</geom>
+			<geom>20,820,72,72,27,1660,125,125</geom>
 			<Str sr="arg0" ve="3">email.background</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%cssAccentColor</Str>
@@ -5951,6 +5697,272 @@ On</Str>
 			<Int sr="arg4" val="2"/>
 			<Str sr="arg5" ve="3">#FF797979</Str>
 		</OvalElement>
+		<ImageElement sr="elements12" ve="2">
+			<clickTask>312</clickTask>
+			<flags>4</flags>
+			<geom>30,830,50,50,0,696,384,384</geom>
+			<Str sr="arg0" ve="3">Email.1080</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hl_content_edit</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
+		</ImageElement>
+		<RectElement sr="elements13">
+			<flags>4</flags>
+			<geom>0,720,540,4,0,0,1080,654</geom>
+			<Str sr="arg0" ve="3">home.body.footer.shadow</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#D46C6C6C</Str>
+			<Str sr="arg3" ve="3">#00000000</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#91000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements14">
+			<flags>4</flags>
+			<geom>0,610,540,100,102,1079,774,129</geom>
+			<Str sr="arg0" ve="3">save.button.shadow.1080</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">#15333333</Str>
+			<Str sr="arg3" ve="3">#00000000</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements15" ve="2">
+			<clickTask>313</clickTask>
+			<flags>4</flags>
+			<geom>20,740,72,70,427,805,250,275</geom>
+			<Str sr="arg0" ve="3">Help.1080</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
+		</ImageElement>
+		<TextElement sr="elements16" ve="3">
+			<clickTask>314</clickTask>
+			<flags>4</flags>
+			<geom>90,730,449,80,352,1304,625,150</geom>
+			<Str sr="arg0" ve="3">help.text.e</Str>
+			<Str sr="arg1" ve="3">create sample calendar event</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain-2</var>
+			</Int>
+			<Int sr="arg3" val="90"/>
+			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements17" ve="3">
+			<clickTask>315</clickTask>
+			<flags>4</flags>
+			<geom>40,620,459,80,402,1210,600,175</geom>
+			<Str sr="arg0" ve="3">save.button.1080</Str>
+			<Str sr="arg1" ve="3">SAVE &amp; CLOSE</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain+4</var>
+			</Int>
+			<Int sr="arg3" val="95"/>
+			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF3CA819</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#FF0BB000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<RectElement sr="elements18">
+			<flags>4</flags>
+			<geom>0,720,279,8,0,0,1080,654</geom>
+			<Str sr="arg0" ve="3">home.title.shadow.left</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Str sr="arg3" ve="3">#D46C6C6C</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#91000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>0,42,540,90,51,105,980,400</geom>
+			<Str sr="arg0" ve="3">logo.shadow</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">#FFD0D0D0</Str>
+			<Str sr="arg3" ve="3">#00F1F1F1</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements3" ve="2">
+			<flags>4</flags>
+			<geom>190,0,164,164,525,105,525,975</geom>
+			<longclickTask>255</longclickTask>
+			<Str sr="arg0" ve="3">home.logo</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements4" ve="3">
+			<clickTask>271</clickTask>
+			<flags>4</flags>
+			<geom>90,810,439,80,277,780,637,300</geom>
+			<Str sr="arg0" ve="3">Email.text.1080</Str>
+			<Str sr="arg1" ve="3">contact developer</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00E5E5E5</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#7AE3E3E3</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>10,160,519,80,15,303,637,187</geom>
+			<Str sr="arg0" ve="3">Text.1080.1</Str>
+			<Str sr="arg1" ve="3">Send a text message, when</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>10,230,519,80,15,378,562,150</geom>
+			<Str sr="arg0" ve="3">text.connected.1080.2</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;connected to&lt;\b&gt;</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<clickTask>293</clickTask>
+			<flags>4</flags>
+			<geom>10,380,519,80,15,303,637,187</geom>
+			<Str sr="arg0" ve="3">Text.1080.3</Str>
+			<Str sr="arg1" ve="3">and there's an &lt;font color='#02A7F2'&gt;active event&lt;/font&gt; in</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain</var>
+			</Int>
+			<Int sr="arg3" val="90"/>
+			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>10,460,519,80,15,303,637,187</geom>
+			<Str sr="arg0" ve="3">text.calendar.1080.4</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;calendar&lt;\b&gt;</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<clickTask>303</clickTask>
+			<flags>4</flags>
+			<geom>150,310,379,80,402,1210,600,175</geom>
+			<Str sr="arg0" ve="3">BTbutton.1080</Str>
+			<Str sr="arg1" ve="3">%asms_carBluetoothName</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80D8D8D8</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="5"/>
+				<Str sr="arg5" ve="3">#FF7E7E7E</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
 		<PropertiesElement sr="props">
 			<keyTask>316</keyTask>
 			<Int sr="arg0" val="2"/>
@@ -5993,7 +6005,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.home.300dp">
 		<cdate>1444468910718</cdate>
-		<edate>1448015708986</edate>
+		<edate>1448127362226</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1024</heightPort>
@@ -6002,11 +6014,11 @@ On</Str>
 		<widthPort>720</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>40,722,639,230,0,0,1080,654</geom>
+			<geom>0,762,360,8,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.title.shadow.left</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#7A6C6C6C</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">#00000000</Str>
+			<Str sr="arg3" ve="3">#D46C6C6C</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#91000000</Str>
 			<Int sr="arg6" val="0"/>
@@ -6026,7 +6038,7 @@ On</Str>
 		</RectElement>
 		<OvalElement sr="elements10">
 			<flags>4</flags>
-			<geom>80,832,72,72,27,1660,125,125</geom>
+			<geom>80,892,72,72,27,1660,125,125</geom>
 			<Str sr="arg0" ve="3">email.background</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%cssAccentColor</Str>
@@ -6037,7 +6049,7 @@ On</Str>
 		<ImageElement sr="elements11" ve="2">
 			<clickTask>338</clickTask>
 			<flags>4</flags>
-			<geom>90,842,50,50,0,696,384,384</geom>
+			<geom>90,902,50,50,0,696,384,384</geom>
 			<Str sr="arg0" ve="3">Email.1080</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_content_edit</nme>
@@ -6047,7 +6059,7 @@ On</Str>
 		</ImageElement>
 		<RectElement sr="elements12">
 			<flags>4</flags>
-			<geom>0,722,719,4,0,0,1080,654</geom>
+			<geom>0,762,719,4,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.body.footer.shadow</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#D46C6C6C</Str>
@@ -6072,7 +6084,7 @@ On</Str>
 		<ImageElement sr="elements14" ve="2">
 			<clickTask>339</clickTask>
 			<flags>4</flags>
-			<geom>80,742,72,72,427,805,250,275</geom>
+			<geom>80,812,72,72,427,805,250,275</geom>
 			<Str sr="arg0" ve="3">Help.1080</Str>
 			<Img sr="arg1" ve="2">
 				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -6083,7 +6095,7 @@ On</Str>
 		<TextElement sr="elements15" ve="3">
 			<clickTask>340</clickTask>
 			<flags>4</flags>
-			<geom>160,742,459,80,352,1304,625,150</geom>
+			<geom>160,802,459,80,352,1304,625,150</geom>
 			<Str sr="arg0" ve="3">help.text.e</Str>
 			<Str sr="arg1" ve="3">create sample calendar event</Str>
 			<Int sr="arg2">
@@ -6138,13 +6150,25 @@ On</Str>
 		</TextElement>
 		<RectElement sr="elements17">
 			<flags>4</flags>
-			<geom>20,722,679,9,0,0,1080,654</geom>
+			<geom>360,762,360,8,0,0,1080,654</geom>
 			<Str sr="arg0" ve="3">home.title.shadow.right</Str>
-			<Int sr="arg1" val="5"/>
+			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">#D46C6C6C</Str>
 			<Str sr="arg3" ve="3">#00000000</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#91000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements18">
+			<flags>4</flags>
+			<geom>20,762,679,262,40,762,240,260</geom>
+			<Str sr="arg0" ve="3">footer.shadow</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#549D9D9D</Str>
+			<Str sr="arg3" ve="3">#00000000</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
@@ -6174,7 +6198,7 @@ On</Str>
 		<TextElement sr="elements3" ve="3">
 			<clickTask>334</clickTask>
 			<flags>4</flags>
-			<geom>160,822,459,80,277,780,637,300</geom>
+			<geom>160,892,459,80,277,780,637,300</geom>
 			<Str sr="arg0" ve="3">Email.text.1080</Str>
 			<Str sr="arg1" ve="3">contact developer</Str>
 			<Int sr="arg2">
@@ -6201,7 +6225,7 @@ On</Str>
 		</TextElement>
 		<TextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>80,192,529,80,15,303,637,187</geom>
+			<geom>20,192,679,80,15,303,637,187</geom>
 			<Str sr="arg0" ve="3">Text.1080.1</Str>
 			<Str sr="arg1" ve="3">Send a text message, when</Str>
 			<Int sr="arg2">
@@ -6216,7 +6240,7 @@ On</Str>
 		</TextElement>
 		<TextElement sr="elements5" ve="3">
 			<flags>4</flags>
-			<geom>80,272,259,70,15,378,562,150</geom>
+			<geom>20,272,339,90,15,378,562,150</geom>
 			<Str sr="arg0" ve="3">text.connected.1080.2</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;connected to&lt;\b&gt;</Str>
 			<Int sr="arg2">
@@ -6232,7 +6256,7 @@ On</Str>
 		<TextElement sr="elements6" ve="3">
 			<clickTask>335</clickTask>
 			<flags>4</flags>
-			<geom>80,342,519,140,15,303,637,187</geom>
+			<geom>90,342,509,140,15,303,637,187</geom>
 			<Str sr="arg0" ve="3">Text.1080.3</Str>
 			<Str sr="arg1" ve="3">and there's an &lt;font color='#02A7F2'&gt;active event&lt;/font&gt; in this</Str>
 			<Int sr="arg2">
@@ -6247,7 +6271,7 @@ On</Str>
 		</TextElement>
 		<TextElement sr="elements7" ve="3">
 			<flags>4</flags>
-			<geom>80,482,229,80,15,303,637,187</geom>
+			<geom>90,482,219,80,15,303,637,187</geom>
 			<Str sr="arg0" ve="3">text.calendar.1080.4</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;calendar&lt;\b&gt;</Str>
 			<Int sr="arg2">
@@ -6358,7 +6382,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setbt.1080p">
 		<cdate>1419930020071</cdate>
-		<edate>1448036530608</edate>
+		<edate>1448997414664</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -6367,7 +6391,7 @@ On</Str>
 		<widthPort>1080</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>90,50,950,225,25,444,786,132</geom>
+			<geom>110,50,970,225,25,444,786,132</geom>
 			<Str sr="arg0" ve="3">calSpinnerBg</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">%cssPrimColor</Str>
@@ -6379,11 +6403,11 @@ On</Str>
 		</RectElement>
 		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>300,50,679,220,2,335,675,150</geom>
+			<geom>290,50,790,220,2,335,675,150</geom>
 			<Str sr="arg0" ve="3">Title</Str>
-			<Str sr="arg1" ve="3">Bluetooth device</Str>
+			<Str sr="arg1" ve="3">Bluetooth devices</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain+4</var>
+				<var>%cssFontSizeMain+8</var>
 			</Int>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
@@ -6394,7 +6418,7 @@ On</Str>
 		</TextElement>
 		<ListElement sr="elements2">
 			<flags>4</flags>
-			<geom>50,310,1030,1340,51,321,742,345</geom>
+			<geom>30,310,1030,1340,51,321,742,345</geom>
 			<itemclickTask>270</itemclickTask>
 			<Str sr="arg0" ve="3">BtMenu</Str>
 			<Int sr="arg1" val="1"/>
@@ -6404,6 +6428,7 @@ On</Str>
 				<Scene sr="val">
 					<cdate>1445989531188</cdate>
 					<edate>1445989531188</edate>
+					<gridSize>10</gridSize>
 					<heightLand>168</heightLand>
 					<heightPort>168</heightPort>
 					<nme>Builtin Item Layout</nme>
@@ -6411,7 +6436,7 @@ On</Str>
 					<widthPort>1030</widthPort>
 					<OvalElement sr="elements0">
 						<flags>4</flags>
-						<geom>0,9,128,128,0,0,144,144</geom>
+						<geom>0,0,162,162,0,0,144,144</geom>
 						<Str sr="arg0" ve="3">Oval1</Str>
 						<Int sr="arg1" val="0"/>
 						<Str sr="arg2" ve="3">#1FDDDDDD</Str>
@@ -6421,7 +6446,7 @@ On</Str>
 					</OvalElement>
 					<ImageElement sr="elements1" ve="2">
 						<flags>5</flags>
-						<geom>0,9,128,128,573,15,153,137</geom>
+						<geom>0,2,162,162,573,15,153,137</geom>
 						<Str sr="arg0" ve="3">Icon</Str>
 						<Img sr="arg1" ve="2">
 							<nme>hl_device_access_bluetooth</nme>
@@ -6431,11 +6456,11 @@ On</Str>
 					</ImageElement>
 					<TextElement sr="elements2" ve="3">
 						<flags>5</flags>
-						<geom>155,9,867,137,112,15,445,137</geom>
+						<geom>181,12,849,137,112,15,445,137</geom>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
 						<Int sr="arg2">
-							<var>%cssFontSizeMain-1</var>
+							<var>%cssFontSizeMain</var>
 						</Int>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
@@ -6520,18 +6545,18 @@ On</Str>
 			</ListElementItem>
 		</PropertiesElement>
 	</Scene>
-	<Scene sr="sceneomw.setbt.300dp">
+	<Scene sr="sceneomw.setbt.200dp">
 		<cdate>1419930020071</cdate>
-		<edate>1447798210352</edate>
+		<edate>1448997223820</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
-		<heightPort>1024</heightPort>
-		<nme>omw.setbt.300dp</nme>
+		<heightPort>960</heightPort>
+		<nme>omw.setbt.200dp</nme>
 		<widthLand>1062</widthLand>
-		<widthPort>720</widthPort>
+		<widthPort>540</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>40,50,499,110,25,444,786,132</geom>
+			<geom>50,50,489,110,25,444,786,132</geom>
 			<Str sr="arg0" ve="3">calSpinnerBg</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">%cssPrimColor</Str>
@@ -6543,11 +6568,11 @@ On</Str>
 		</RectElement>
 		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>121,50,419,100,51,370,834,79</geom>
+			<geom>130,50,409,112,51,370,834,79</geom>
 			<Str sr="arg0" ve="3">btSubtext</Str>
-			<Str sr="arg1" ve="3">select your bluetooth device</Str>
+			<Str sr="arg1" ve="3">Bluetooth devices</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain-2</var>
+				<var>%cssFontSizeMain+4</var>
 			</Int>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
@@ -6558,7 +6583,172 @@ On</Str>
 		</TextElement>
 		<ListElement sr="elements2">
 			<flags>4</flags>
-			<geom>20,180,499,760,51,321,742,345</geom>
+			<geom>0,180,540,760,51,321,742,345</geom>
+			<itemclickTask>213</itemclickTask>
+			<Str sr="arg0" ve="3">BtMenu</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%pairedBtNamesArray</Str>
+			<Int sr="arg3" val="1"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1445989531188</cdate>
+					<edate>1445989531188</edate>
+					<gridSize>10</gridSize>
+					<heightLand>168</heightLand>
+					<heightPort>100</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>742</widthLand>
+					<widthPort>540</widthPort>
+					<OvalElement sr="elements0">
+						<flags>4</flags>
+						<geom>10,0,100,100,0,0,144,144</geom>
+						<Str sr="arg0" ve="3">Oval1</Str>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#1FDDDDDD</Str>
+						<Str sr="arg3" ve="3"/>
+						<Int sr="arg4" val="5"/>
+						<Str sr="arg5" ve="3">#53000000</Str>
+					</OvalElement>
+					<ImageElement sr="elements1" ve="2">
+						<flags>5</flags>
+						<geom>10,0,100,100,573,15,153,137</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hl_device_access_bluetooth</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+						<Str sr="arg3" ve="3">#000099CC</Str>
+					</ImageElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>5</flags>
+						<geom>120,0,420,100,112,15,445,137</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2">
+							<var>%cssFontSizeMain</var>
+						</Int>
+						<Int sr="arg3" val="90"/>
+						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
+						<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+						<Int sr="arg6" val="3"/>
+						<Int sr="arg7" val="1"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<TextElement sr="elements3" ve="3">
+						<flags>1</flags>
+						<geom>490,0,50,100,15,15,81,137</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="24"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="3"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ListElement>
+		<ImageElement sr="elements3" ve="2">
+			<flags>4</flags>
+			<geom>0,40,128,128,787,346,270,246</geom>
+			<Str sr="arg0" ve="3">BtImage</Str>
+			<Img sr="arg1" ve="2">
+				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fbt%20settings%20icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#000099CC</Str>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<keyTask>327</keyTask>
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#FFF2F2F2</Str>
+			<Int sr="arg3" val="2"/>
+			<Str sr="arg4" ve="3">Bluetooth</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<LinkClickFilter sr="filter0">
+				<stopEvent>true</stopEvent>
+				<urlMatch>back</urlMatch>
+			</LinkClickFilter>
+			<ListElementItem sr="item0">
+				<Action sr="action" ve="7">
+					<code>48</code>
+					<Str sr="arg0" ve="3">%scene_name</Str>
+					<Int sr="arg1" val="3"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hl_ab_content_remove</nme>
+				</Img>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneomw.setbt.300dp">
+		<cdate>1419930020071</cdate>
+		<edate>1448997213766</edate>
+		<gridSize>10</gridSize>
+		<heightLand>1080</heightLand>
+		<heightPort>1024</heightPort>
+		<nme>omw.setbt.300dp</nme>
+		<widthLand>1062</widthLand>
+		<widthPort>720</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>70,12,649,110,25,444,786,132</geom>
+			<Str sr="arg0" ve="3">calSpinnerBg</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%cssPrimColor</Str>
+			<Str sr="arg3" ve="3">#00000000</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FFA0A0A0</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+		</RectElement>
+		<TextElement sr="elements1" ve="3">
+			<flags>4</flags>
+			<geom>140,12,579,112,51,370,834,79</geom>
+			<Str sr="arg0" ve="3">btSubtext</Str>
+			<Str sr="arg1" ve="3">Bluetooth devices</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain+4</var>
+			</Int>
+			<Int sr="arg3" val="95"/>
+			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<ListElement sr="elements2">
+			<flags>4</flags>
+			<geom>10,142,699,820,51,321,742,345</geom>
 			<itemclickTask>326</itemclickTask>
 			<Str sr="arg0" ve="3">BtMenu</Str>
 			<Int sr="arg1" val="1"/>
@@ -6600,7 +6790,7 @@ On</Str>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
 						<Int sr="arg2">
-							<var>%cssFontSizeMain-2</var>
+							<var>%cssFontSizeMain</var>
 						</Int>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
@@ -6651,7 +6841,7 @@ On</Str>
 		</ListElement>
 		<ImageElement sr="elements3" ve="2">
 			<flags>4</flags>
-			<geom>0,40,128,128,787,346,270,246</geom>
+			<geom>0,2,128,128,787,346,270,246</geom>
 			<Str sr="arg0" ve="3">BtImage</Str>
 			<Img sr="arg1" ve="2">
 				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fbt%20settings%20icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -6687,7 +6877,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setcal.1080p">
 		<cdate>1419930020071</cdate>
-		<edate>1448036539688</edate>
+		<edate>1448997399479</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -6696,7 +6886,7 @@ On</Str>
 		<widthPort>1080</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>90,50,945,225,25,444,786,132</geom>
+			<geom>110,50,970,225,25,444,786,132</geom>
 			<Str sr="arg0" ve="3">calSpinnerBg</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">%cssPrimColor</Str>
@@ -6712,7 +6902,7 @@ On</Str>
 			<Str sr="arg0" ve="3">Title</Str>
 			<Str sr="arg1" ve="3">Select a calendar</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain+4</var>
+				<var>%cssFontSizeMain+8</var>
 			</Int>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
@@ -6723,7 +6913,7 @@ On</Str>
 		</TextElement>
 		<ListElement sr="elements2">
 			<flags>4</flags>
-			<geom>50,320,1030,1290,51,321,742,345</geom>
+			<geom>30,320,1030,1290,51,321,742,345</geom>
 			<itemclickTask>251</itemclickTask>
 			<Str sr="arg0" ve="3">calMenu</Str>
 			<Int sr="arg1" val="1"/>
@@ -6733,6 +6923,7 @@ On</Str>
 				<Scene sr="val">
 					<cdate>1445989531188</cdate>
 					<edate>1445989531188</edate>
+					<gridSize>10</gridSize>
 					<heightLand>168</heightLand>
 					<heightPort>168</heightPort>
 					<nme>Builtin Item Layout</nme>
@@ -6764,7 +6955,7 @@ On</Str>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
 						<Int sr="arg2">
-							<var>%cssFontSizeMain-1</var>
+							<var>%cssFontSizeMain</var>
 						</Int>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
@@ -6851,7 +7042,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setcal.200dp">
 		<cdate>1419930020071</cdate>
-		<edate>1447796552422</edate>
+		<edate>1448997343064</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>960</heightPort>
@@ -6860,7 +7051,7 @@ On</Str>
 		<widthPort>540</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>50,50,489,110,25,444,786,132</geom>
+			<geom>50,20,489,110,25,444,786,132</geom>
 			<Str sr="arg0" ve="3">calSpinnerBg</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">%cssPrimColor</Str>
@@ -6872,11 +7063,11 @@ On</Str>
 		</RectElement>
 		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>130,60,409,90,2,335,675,150</geom>
+			<geom>130,20,409,110,2,335,675,150</geom>
 			<Str sr="arg0" ve="3">Title</Str>
 			<Str sr="arg1" ve="3">Select a calendar</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain-2</var>
+				<var>%cssFontSizeMain+4</var>
 			</Int>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
@@ -6887,7 +7078,7 @@ On</Str>
 		</TextElement>
 		<ListElement sr="elements2">
 			<flags>4</flags>
-			<geom>20,180,489,750,51,321,742,345</geom>
+			<geom>10,140,529,750,51,321,742,345</geom>
 			<itemclickTask>330</itemclickTask>
 			<Str sr="arg0" ve="3">calMenu</Str>
 			<Int sr="arg1" val="1"/>
@@ -6897,11 +7088,12 @@ On</Str>
 				<Scene sr="val">
 					<cdate>1445989531188</cdate>
 					<edate>1445989531188</edate>
+					<gridSize>10</gridSize>
 					<heightLand>168</heightLand>
 					<heightPort>100</heightPort>
 					<nme>Builtin Item Layout</nme>
 					<widthLand>742</widthLand>
-					<widthPort>960</widthPort>
+					<widthPort>540</widthPort>
 					<OvalElement sr="elements0">
 						<flags>4</flags>
 						<geom>0,0,100,100,0,0,144,144</geom>
@@ -6924,13 +7116,13 @@ On</Str>
 					</ImageElement>
 					<TextElement sr="elements2" ve="3">
 						<flags>5</flags>
-						<geom>119,0,841,100,112,15,445,137</geom>
+						<geom>110,0,430,100,112,15,445,137</geom>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
 						<Int sr="arg2">
-							<var>%cssFontSizeMain-1</var>
+							<var>%cssFontSizeMain</var>
 						</Int>
-						<Int sr="arg3" val="100"/>
+						<Int sr="arg3" val="90"/>
 						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
 						<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
 						<Int sr="arg6" val="3"/>
@@ -6939,7 +7131,7 @@ On</Str>
 					</TextElement>
 					<TextElement sr="elements3" ve="3">
 						<flags>1</flags>
-						<geom>692,0,50,100,15,15,81,137</geom>
+						<geom>490,0,50,100,15,15,81,137</geom>
 						<Str sr="arg0" ve="3">Index</Str>
 						<Str sr="arg1" ve="3">1.</Str>
 						<Int sr="arg2" val="24"/>
@@ -6979,7 +7171,7 @@ On</Str>
 		</ListElement>
 		<ImageElement sr="elements3" ve="2">
 			<flags>4</flags>
-			<geom>0,40,128,128,787,346,270,246</geom>
+			<geom>0,10,128,128,787,346,270,246</geom>
 			<Str sr="arg0" ve="3">calImage</Str>
 			<Img sr="arg1" ve="2">
 				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fcalendar%20icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -7015,7 +7207,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setcal.300dp">
 		<cdate>1419930020071</cdate>
-		<edate>1447798224986</edate>
+		<edate>1448997361314</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1024</heightPort>
@@ -7024,7 +7216,7 @@ On</Str>
 		<widthPort>720</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>50,50,489,110,25,444,786,132</geom>
+			<geom>50,52,669,110,25,444,786,132</geom>
 			<Str sr="arg0" ve="3">calSpinnerBg</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">%cssPrimColor</Str>
@@ -7036,13 +7228,13 @@ On</Str>
 		</RectElement>
 		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>130,60,409,90,2,335,675,150</geom>
+			<geom>140,52,579,110,2,335,675,150</geom>
 			<Str sr="arg0" ve="3">Title</Str>
 			<Str sr="arg1" ve="3">Select a calendar</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain-2</var>
+				<var>%cssFontSizeMain+4</var>
 			</Int>
-			<Int sr="arg3" val="100"/>
+			<Int sr="arg3" val="95"/>
 			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
 			<Str sr="arg5" ve="3">%cssTextTitleFont</Str>
 			<Int sr="arg6" val="3"/>
@@ -7051,7 +7243,7 @@ On</Str>
 		</TextElement>
 		<ListElement sr="elements2">
 			<flags>4</flags>
-			<geom>20,180,489,750,51,321,742,345</geom>
+			<geom>20,182,679,800,51,321,742,345</geom>
 			<itemclickTask>343</itemclickTask>
 			<Str sr="arg0" ve="3">calMenu</Str>
 			<Int sr="arg1" val="1"/>
@@ -7092,7 +7284,7 @@ On</Str>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
 						<Int sr="arg2">
-							<var>%cssFontSizeMain-1</var>
+							<var>%cssFontSizeMain</var>
 						</Int>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
@@ -7179,7 +7371,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.settings.1080p">
 		<cdate>1445926871665</cdate>
-		<edate>1448034533107</edate>
+		<edate>1448997382457</edate>
 		<gridSize>15</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -7575,7 +7767,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.settings.200dp">
 		<cdate>1445926871665</cdate>
-		<edate>1448015494615</edate>
+		<edate>1448130279765</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>960</heightPort>
@@ -7620,7 +7812,7 @@ On</Str>
 			<Str sr="arg0" ve="3">header.title</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;settings&lt;\b&gt;</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain720+10</var>
+				<var>%cssFontSizeMain+4</var>
 			</Int>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
@@ -7647,7 +7839,7 @@ On</Str>
 		<TextElement sr="elements13" ve="3">
 			<clickTask>321</clickTask>
 			<flags>4</flags>
-			<geom>110,810,389,70,402,1560,425,150</geom>
+			<geom>110,770,389,70,402,1560,425,150</geom>
 			<Str sr="arg0" ve="3">taskerText</Str>
 			<Str sr="arg1" ve="3">Tasker based.</Str>
 			<Int sr="arg2">
@@ -7663,7 +7855,7 @@ On</Str>
 		<ImageElement sr="elements14" ve="2">
 			<clickTask>322</clickTask>
 			<flags>4</flags>
-			<geom>30,810,72,72,277,1560,128,128</geom>
+			<geom>30,780,72,72,277,1560,128,128</geom>
 			<Str sr="arg0" ve="3">taskerImg</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hl_zzz_tasker</nme>
@@ -7976,7 +8168,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.settings.300dp">
 		<cdate>1445926871665</cdate>
-		<edate>1448015427428</edate>
+		<edate>1448126803312</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1024</heightPort>
@@ -8021,7 +8213,7 @@ On</Str>
 			<Str sr="arg0" ve="3">header.title</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;settings&lt;\b&gt;</Str>
 			<Int sr="arg2">
-				<var>%cssFontSizeMain720+10</var>
+				<var>%cssFontSizeMain+4</var>
 			</Int>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
@@ -12613,7 +12805,7 @@ On</Str>
 	</Task>
 	<Task sr="task17">
 		<cdate>1342548038885</cdate>
-		<edate>1448015079687</edate>
+		<edate>1448996946807</edate>
 		<id>17</id>
 		<nme>asms.send.arrival_time</nme>
 		<pri>100</pri>
@@ -13086,10 +13278,10 @@ On</Str>
 	</Task>
 	<Task sr="task170">
 		<cdate>1420115052287</cdate>
-		<edate>1445108281930</edate>
+		<edate>1448996840189</edate>
 		<id>170</id>
 		<nme>_getPairedBtDevicesList</nme>
-		<pri>10</pri>
+		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -13103,7 +13295,9 @@ On</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>218</code>
+			<code>548</code>
+			<Str sr="arg0" ve="3">"On My Wayz" need Bluetooth to be turned on</Str>
+			<Int sr="arg1" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%BLUE</lhs>
@@ -13113,6 +13307,20 @@ On</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">paired_bt_device</Str>
+			<Str sr="arg1" ve="3">paired_iterator</Str>
+			<Str sr="arg2" ve="3">next
+{Object} ()</Str>
+			<Str sr="arg3" ve="3">calendar.db</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>664</code>
 			<Str sr="arg0" ve="3">%device_name</Str>
 			<Str sr="arg1" ve="3">(BluetoothDevice) paired_bt_device</Str>
@@ -13126,7 +13334,7 @@ On</Str>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>664</code>
 			<Str sr="arg0" ve="3">%device_name</Str>
 			<Str sr="arg1" ve="3">(BluetoothDevice) paired_bt_device</Str>
@@ -13147,8 +13355,9 @@ On</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>664</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%devnm</Str>
 			<Str sr="arg1" ve="3">(BluetoothDevice) paired_bt_device</Str>
 			<Str sr="arg2" ve="3">getName
@@ -13161,7 +13370,7 @@ On</Str>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>664</code>
 			<Str sr="arg0" ve="3">%device_address</Str>
 			<Str sr="arg1" ve="3">(BluetoothDevice) paired_bt_device</Str>
@@ -13175,17 +13384,17 @@ On</Str>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>355</code>
 			<Str sr="arg0" ve="3">%paired_list</Str>
 			<Int sr="arg1" val="999"/>
-			<Str sr="arg2" ve="3">%device_name-%device_address</Str>
+			<Str sr="arg2" ve="3">%device_name;;;%device_address</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -13196,12 +13405,22 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%paired_list(:)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>218</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUE</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>664</code>
 			<Str sr="arg0" ve="3">default_adapter</Str>
 			<Str sr="arg1" ve="3">BluetoothAdapter</Str>
@@ -13215,7 +13434,7 @@ On</Str>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -13230,7 +13449,7 @@ On</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>664</code>
 			<Str sr="arg0" ve="3">paired_set</Str>
 			<Str sr="arg1" ve="3">(BluetoothAdapter) default_adapter</Str>
@@ -13244,7 +13463,7 @@ On</Str>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>664</code>
 			<Str sr="arg0" ve="3">%pairedcount</Str>
 			<Str sr="arg1" ve="3">(Set) paired_set</Str>
@@ -13258,7 +13477,7 @@ On</Str>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>664</code>
 			<Str sr="arg0" ve="3">paired_iterator</Str>
 			<Str sr="arg1" ve="3">paired_set</Str>
@@ -13272,29 +13491,15 @@ On</Str>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%inx</Str>
 			<Str sr="arg1" ve="3">1:%pairedcount</Str>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%device_name</Str>
 			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3">paired_bt_device</Str>
-			<Str sr="arg1" ve="3">paired_iterator</Str>
-			<Str sr="arg2" ve="3">next
-{Object} ()</Str>
-			<Str sr="arg3" ve="3">calendar.db</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_device_access_bluetooth_connected</nme>
@@ -17177,7 +17382,7 @@ Where
 	</Task>
 	<Task sr="task201">
 		<cdate>1422092223274</cdate>
-		<edate>1445771612126</edate>
+		<edate>1448996866217</edate>
 		<id>201</id>
 		<nme>asms.IndBtDevOff</nme>
 		<pri>10</pri>
@@ -17887,6 +18092,62 @@ Where
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task213">
+		<cdate>1445690220351</cdate>
+		<edate>1445690220351</edate>
+		<id>213</id>
+		<pri>105</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%asms_carBluetoothName</Str>
+			<Str sr="arg1" ve="3">%tap_label</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_filterBtAddress</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%pairedBtArray</Str>
+			<Str sr="arg3" ve="3">%tap_label</Str>
+			<Str sr="arg4" ve="3">%asms_carBluetoothAddress</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">asms.log</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">selected bt: %asms_carBluetoothName (%asms_carBluetoothAddress)</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_scene.toggle.controller</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Bluetooth setting saved</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Int sr="arg1" val="3"/>
+		</Action>
+	</Task>
 	<Task sr="task214">
 		<cdate>1445985503554</cdate>
 		<edate>1445985503554</edate>
@@ -17933,7 +18194,7 @@ Where
 	</Task>
 	<Task sr="task217">
 		<cdate>1424174576960</cdate>
-		<edate>1448046681953</edate>
+		<edate>1448998852580</edate>
 		<id>217</id>
 		<nme>asms.settings.defaults</nme>
 		<pri>100</pri>
@@ -17952,7 +18213,7 @@ Where
 		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%Version</Str>
-			<Str sr="arg1" ve="3">1.2.232-verdpi</Str>
+			<Str sr="arg1" ve="3">1.2.240-verdpi</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
@@ -17966,7 +18227,7 @@ Where
 		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
-			<Str sr="arg1" ve="3">16</Str>
+			<Str sr="arg1" ve="3">19</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
@@ -18192,7 +18453,7 @@ Where
 		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
-			<Str sr="arg1" ve="3">14</Str>
+			<Str sr="arg1" ve="3">20</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
@@ -18876,7 +19137,7 @@ Where
 	</Task>
 	<Task sr="task232">
 		<cdate>1446060053209</cdate>
-		<edate>1447013996965</edate>
+		<edate>1448997086990</edate>
 		<id>232</id>
 		<nme>_scene.stream.controller</nme>
 		<Action sr="act0" ve="7">
@@ -19195,7 +19456,7 @@ Device Types
 	</Task>
 	<Task sr="task244">
 		<cdate>1444506321695</cdate>
-		<edate>1447798088124</edate>
+		<edate>1448131205197</edate>
 		<id>244</id>
 		<nme>omw.emailLog</nme>
 		<pri>100</pri>
@@ -19214,7 +19475,7 @@ Device Types
 		<Action sr="act2" ve="7">
 			<code>125</code>
 			<Str sr="arg0" ve="3">%address</Str>
-			<Str sr="arg1" ve="3">asms%DATE.log - %version</Str>
+			<Str sr="arg1" ve="3">asms%DATE.log - %Version</Str>
 			<Str sr="arg2" ve="3">-----------------------
 %logtext</Str>
 		</Action>
@@ -19368,12 +19629,26 @@ Device Types
 	</Task>
 	<Task sr="task249">
 		<cdate>1420115052287</cdate>
-		<edate>1445781822477</edate>
+		<edate>1448997015486</edate>
 		<id>249</id>
 		<nme>_filterBtNamesList</nme>
-		<pri>10</pri>
+		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">deviCE1;;;23:44:4A:FF,device02;;;53:1D:F1:A4,device03;;;53:1D:A3:A4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -19384,10 +19659,10 @@ Device Types
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act2" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">-|[A-F0-9][A-F0-9]:|[A-F0-9][A-F0-9]$</Str>
+			<Str sr="arg1" ve="3">;;;|[A-F0-9][A-F0-9]:|[A-F0-9][A-F0-9]$</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -19395,7 +19670,7 @@ Device Types
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">[A-F0-9][A-F0-9],</Str>
@@ -19406,7 +19681,7 @@ Device Types
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">,</Str>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -19417,7 +19692,19 @@ Device Types
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>*device02*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
@@ -19468,13 +19755,14 @@ Device Types
 	</Task>
 	<Task sr="task250">
 		<cdate>1445676139312</cdate>
-		<edate>1445783590076</edate>
+		<edate>1448996641647</edate>
 		<id>250</id>
 		<nme>_filterBtAddress</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">deviCE1-23:44:4A:FF,device02-53:1D:F1:A4,device03-53:1D:A3:A4</Str>
+			<Str sr="arg1" ve="3">deviCE1;;;23:44:4A:FF,device02;;;53:1D:F1:A4,device03;;;53:1D:A3:A4</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
@@ -19486,9 +19774,23 @@ Device Types
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par2</Str>
+			<Str sr="arg1" ve="3">device02</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">%par2-([A-F0-9][A-F0-9]:)*[A-F0-9][A-F0-9]</Str>
+			<Str sr="arg1" ve="3">%par2;;;([A-F0-9][A-F0-9]:)*[A-F0-9][A-F0-9]</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -19496,13 +19798,25 @@ Device Types
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%res1</Str>
-			<Str sr="arg1" ve="3">-</Str>
+			<Str sr="arg1" ve="3">;;;</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%res12</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>0</op>
+					<rhs>device02</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%res12</Str>
 			<Int sr="arg1" val="1"/>
@@ -19550,8 +19864,9 @@ Device Types
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">omw.setcal.1080p</Str>
+			<code>48</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Int sr="arg1" val="3"/>
 		</Action>
 	</Task>
 	<Task sr="task252">
@@ -20009,7 +20324,7 @@ Device Types
 	</Task>
 	<Task sr="task266">
 		<cdate>1445755346907</cdate>
-		<edate>1448037011329</edate>
+		<edate>1448998880085</edate>
 		<id>266</id>
 		<nme>___testUI</nme>
 		<pri>100</pri>
@@ -20028,7 +20343,7 @@ Device Types
 	</Task>
 	<Task sr="task267">
 		<cdate>1445756037012</cdate>
-		<edate>1446835571176</edate>
+		<edate>1448997092772</edate>
 		<id>267</id>
 		<nme>_scene.speaker.controller</nme>
 		<rty>1</rty>
@@ -20224,7 +20539,7 @@ Device Types
 	</Task>
 	<Task sr="task269">
 		<cdate>1445756810328</cdate>
-		<edate>1446842555889</edate>
+		<edate>1448997081570</edate>
 		<id>269</id>
 		<nme>_scene.toggle.controller</nme>
 		<pri>100</pri>
@@ -20398,8 +20713,9 @@ Device Types
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">omw.setbt.1080p</Str>
+			<code>48</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Int sr="arg1" val="3"/>
 		</Action>
 	</Task>
 	<Task sr="task271">
@@ -21808,6 +22124,22 @@ Did you hear it?</Str>
 			<Int sr="arg1" val="3"/>
 		</Action>
 	</Task>
+	<Task sr="task327">
+		<cdate>1420300862241</cdate>
+		<edate>1420300862241</edate>
+		<id>327</id>
+		<pri>105</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Int sr="arg1" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Saved</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task329">
 		<cdate>1420300862241</cdate>
 		<edate>1420300862241</edate>
@@ -21866,8 +22198,9 @@ Did you hear it?</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">omw.setcal.1080p</Str>
+			<code>48</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Int sr="arg1" val="3"/>
 		</Action>
 	</Task>
 	<Task sr="task331">
@@ -22184,8 +22517,9 @@ Did you hear it?</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">omw.setcal.1080p</Str>
+			<code>48</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Int sr="arg1" val="3"/>
 		</Action>
 	</Task>
 	<Task sr="task344">
@@ -23956,7 +24290,7 @@ Message: --=:=caron</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task61">
 		<cdate>1419929855168</cdate>
-		<edate>1448015142489</edate>
+		<edate>1448997057438</edate>
 		<id>61</id>
 		<nme>asms.settings</nme>
 		<pri>100</pri>
