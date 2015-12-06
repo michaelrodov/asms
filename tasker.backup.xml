@@ -12,8 +12,8 @@
 			<wday0>4</wday0>
 			<wday1>1</wday1>
 			<wday2>7</wday2>
-			<wday3>2</wday3>
-			<wday4>3</wday4>
+			<wday3>3</wday3>
+			<wday4>2</wday4>
 		</Day>
 		<Time sr="con1">
 			<fh>-1</fh>
@@ -943,13 +943,13 @@ Way the message was sent (BT, Wifi, GCM)
 	</Project>
 	<Project sr="proj1" ve="2">
 		<cdate>1419858421902</cdate>
-		<mdate>1448125333037</mdate>
+		<mdate>1449247104228</mdate>
 		<name>On My Wayz Notification</name>
 		<pids>57,203,198</pids>
 		<psort>Alpha</psort>
 		<scenes>omw.settings.200dp,omw.settings.1080p,omw.setcal.200dp,omw.setcal.1080p,omw.setbt.1080p,omw.home.200dp,omw.home.1080p,omw.home.300dp,omw.setbt.300dp,omw.setcal.300dp,omw.settings.300dp,omw.help.1080p,omw.help.300dp,omw.help.200dp,omw.setbt.200dp</scenes>
 		<ssort>Alpha</ssort>
-		<tids>17,118,99,133,85,18,65,127,110,114,84,125,61,170,176,177,171,175,172,180,182,185,178,184,183,186,78,193,196,199,200,201,202,208,217,218,244,249,250,266,267,268,269,232,259,261,306,209,210,287,288,325</tids>
+		<tids>17,118,99,133,85,18,65,127,110,114,84,125,61,170,176,177,171,175,172,180,182,185,178,184,183,186,78,193,196,199,200,201,202,208,217,218,244,249,250,266,267,268,269,232,259,261,306,209,210,287,288,325,356,358</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>android.permission.ACCESS_FINE_LOCATION</eperm0>
@@ -960,9 +960,8 @@ Way the message was sent (BT, Wifi, GCM)
 			<feat2>android.hardware.location.gps:y</feat2>
 			<launchID>61</launchID>
 			<pkg>com.rodov.me.omw</pkg>
-			<vnme>1.0.89
-1.2.240</vnme>
-			<vnum>139</vnum>
+			<vnme>1.2.246</vnme>
+			<vnum>148</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -996,8 +995,8 @@ Way the message was sent (BT, Wifi, GCM)
 		<tids>166,165,188,88,86,187,192,206,207,174</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
-			<eperm0>android.permission.READ_CONTACTS</eperm0>
-			<eperm1>GET_TASKS</eperm1>
+			<eperm0>GET_TASKS</eperm0>
+			<eperm1>android.permission.READ_CONTACTS</eperm1>
 			<eperm2>WRITE_CONTACTS</eperm2>
 			<launchID>188</launchID>
 			<pkg>com.rodov.test</pkg>
@@ -1784,7 +1783,7 @@ Way the message was sent (BT, Wifi, GCM)
 	</Scene>
 	<Scene sr="sceneSceneTesting">
 		<cdate>1445872260074</cdate>
-		<edate>1448037091869</edate>
+		<edate>1449224015712</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1752</heightPort>
 		<nme>SceneTesting</nme>
@@ -5255,7 +5254,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.home.1080p">
 		<cdate>1444468910718</cdate>
-		<edate>1448997452888</edate>
+		<edate>1449300764001</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -5276,7 +5275,7 @@ On</Str>
 		</RectElement>
 		<ImageElement sr="elements1" ve="2">
 			<flags>4</flags>
-			<geom>300,0,384,384,525,105,525,975</geom>
+			<geom>350,0,384,384,525,105,525,975</geom>
 			<longclickTask>181</longclickTask>
 			<Str sr="arg0" ve="3">home.logo</Str>
 			<Img sr="arg1" ve="2">
@@ -5332,7 +5331,7 @@ On</Str>
 		</RectElement>
 		<RectElement sr="elements13">
 			<flags>4</flags>
-			<geom>0,1000,1080,168,102,1079,774,129</geom>
+			<geom>0,1040,1080,168,102,1079,774,129</geom>
 			<Str sr="arg0" ve="3">save.button.shadow.1080</Str>
 			<Int sr="arg1" val="5"/>
 			<Str sr="arg2" ve="3">#3E333333</Str>
@@ -5384,7 +5383,7 @@ On</Str>
 		<TextElement sr="elements16" ve="3">
 			<clickTask>237</clickTask>
 			<flags>4</flags>
-			<geom>170,1020,722,123,402,1210,600,175</geom>
+			<geom>170,1060,722,123,402,1210,600,175</geom>
 			<Str sr="arg0" ve="3">save.button.1080</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;SAVE &amp; CLOSE&lt;/b&gt;</Str>
 			<Int sr="arg2" val="25"/>
@@ -5431,6 +5430,21 @@ On</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
+		<TextElement sr="elements19" ve="3">
+			<flags>4</flags>
+			<geom>770,230,310,80,15,303,637,187</geom>
+			<Str sr="arg0" ve="3">click.here.right</Str>
+			<Str sr="arg1" ve="3">manual launch</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain-4</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
 		<RectElement sr="elements2">
 			<flags>4</flags>
 			<geom>30,1200,1019,370,0,777,1078,303</geom>
@@ -5443,6 +5457,21 @@ On</Str>
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="2"/>
 		</RectElement>
+		<TextElement sr="elements20" ve="3">
+			<flags>4</flags>
+			<geom>0,90,310,80,15,303,637,187</geom>
+			<Str sr="arg0" ve="3">click.here.left</Str>
+			<Str sr="arg1" ve="3">manual launch</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain-4</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="4"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
 		<TextElement sr="elements3" ve="3">
 			<clickTask>252</clickTask>
 			<flags>4</flags>
@@ -5628,7 +5657,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.home.200dp">
 		<cdate>1444468910718</cdate>
-		<edate>1448131827330</edate>
+		<edate>1449085316930</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>960</heightPort>
@@ -6382,7 +6411,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setbt.1080p">
 		<cdate>1419930020071</cdate>
-		<edate>1448997414664</edate>
+		<edate>1449255259386</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -6547,7 +6576,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setbt.200dp">
 		<cdate>1419930020071</cdate>
-		<edate>1448997223820</edate>
+		<edate>1449251842088</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>960</heightPort>
@@ -6712,7 +6741,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setbt.300dp">
 		<cdate>1419930020071</cdate>
-		<edate>1448997213766</edate>
+		<edate>1449251870183</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1024</heightPort>
@@ -7042,7 +7071,7 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.setcal.200dp">
 		<cdate>1419930020071</cdate>
-		<edate>1448997343064</edate>
+		<edate>1449172848314</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>960</heightPort>
@@ -7078,7 +7107,7 @@ On</Str>
 		</TextElement>
 		<ListElement sr="elements2">
 			<flags>4</flags>
-			<geom>10,140,529,750,51,321,742,345</geom>
+			<geom>11,110,529,750,51,321,742,345</geom>
 			<itemclickTask>330</itemclickTask>
 			<Str sr="arg0" ve="3">calMenu</Str>
 			<Int sr="arg1" val="1"/>
@@ -7371,8 +7400,8 @@ On</Str>
 	</Scene>
 	<Scene sr="sceneomw.settings.1080p">
 		<cdate>1445926871665</cdate>
-		<edate>1448997382457</edate>
-		<gridSize>15</gridSize>
+		<edate>1449176889284</edate>
+		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
 		<nme>omw.settings.1080p</nme>
@@ -7526,6 +7555,16 @@ On</Str>
 			<Int sr="arg2" val="255"/>
 			<Str sr="arg3" ve="3">#000099CC</Str>
 		</ImageElement>
+		<ImageElement sr="elements19" ve="2">
+			<flags>4</flags>
+			<geom>40,1200,132,132,45,1200,120,120</geom>
+			<Str sr="arg0" ve="3">buffer.input.img</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hl_device_access_add_alarm</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
 		<ImageElement sr="elements2" ve="2">
 			<clickTask>234</clickTask>
 			<flags>4</flags>
@@ -7550,6 +7589,63 @@ On</Str>
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</ImageElement>
+		<TextElement sr="elements20" ve="3">
+			<flags>4</flags>
+			<geom>180,1200,104,120,427,511,625,125</geom>
+			<Str sr="arg0" ve="3">buffer.input.text1</Str>
+			<Str sr="arg1" ve="3">add</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain-1</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements21" ve="3">
+			<flags>4</flags>
+			<geom>380,1200,659,120,427,511,625,125</geom>
+			<Str sr="arg0" ve="3">buffer.input.text2</Str>
+			<Str sr="arg1" ve="3">minutes to your arrival time</Str>
+			<Int sr="arg2">
+				<var>%cssFontSizeMain-1</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%cssTextPrimColor</Str>
+			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements22" ve="3">
+			<flags>4</flags>
+			<focuschangeTask>357</focuschangeTask>
+			<geom>285,1200,89,120,285,1200,119,120</geom>
+			<valueselectedTask>328</valueselectedTask>
+			<Str sr="arg0" ve="3">buffer.input</Str>
+			<Str sr="arg1" ve="3">%asms_BufferMinutes</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="4"/>
+			<Int sr="arg8" val="2"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#BFFFFFFF</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
 			<geom>180,377,854,120,427,511,625,125</geom>
@@ -12805,7 +12901,7 @@ On</Str>
 	</Task>
 	<Task sr="task17">
 		<cdate>1342548038885</cdate>
-		<edate>1448996946807</edate>
+		<edate>1449176710499</edate>
 		<id>17</id>
 		<nme>asms.send.arrival_time</nme>
 		<pri>100</pri>
@@ -12992,6 +13088,14 @@ On</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act24" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%arrival_time</Str>
+			<Int sr="arg1">
+				<var>%asms_BufferMinutes</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_timeAdd</Str>
 			<Int sr="arg1">
@@ -13002,7 +13106,7 @@ On</Str>
 			<Str sr="arg4" ve="3">%timeof_arrival</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%event_description</Str>
 			<Str sr="arg1" ve="3">#time#</Str>
@@ -13013,7 +13117,7 @@ On</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">%timeof_arrival</Str>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%event_description</Str>
 			<Str sr="arg1" ve="3">#minutes#</Str>
@@ -13024,10 +13128,10 @@ On</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">%arrival_time</Str>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_timeToDaypart</Str>
 			<Int sr="arg1">
@@ -13037,17 +13141,6 @@ On</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%daypart</Str>
 			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%event_description</Str>
-			<Str sr="arg1" ve="3">#daypart#</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%daypart</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -13064,6 +13157,17 @@ On</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act30" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%event_description</Str>
+			<Str sr="arg1" ve="3">#daypart#</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%daypart</Str>
+		</Action>
+		<Action sr="act31" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -13074,7 +13178,7 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -13085,7 +13189,7 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -13101,7 +13205,7 @@ On</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_sms</Str>
 			<Int sr="arg1">
@@ -13112,14 +13216,14 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%event_description</Str>
 			<Str sr="arg1" ve="3">sms sent. %event_description</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_alert.notify</Str>
 			<Int sr="arg1">
@@ -13130,7 +13234,7 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -13141,10 +13245,10 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>130</code>
 			<label>END</label>
 			<Str sr="arg0" ve="3">_talk</Str>
@@ -13153,17 +13257,6 @@ On</Str>
 			</Int>
 			<Str sr="arg2" ve="3">%event_description</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_alert.notify</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">%event_description</Str>
-			<Str sr="arg3" ve="3">success</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -13180,6 +13273,17 @@ On</Str>
 		</Action>
 		<Action sr="act40" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">_alert.notify</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%event_description</Str>
+			<Str sr="arg3" ve="3">success</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>130</code>
 			<Str sr="arg0" ve="3">asms.disposeEvent</Str>
 			<Int sr="arg1">
 				<var>%priority+1</var>
@@ -13189,7 +13293,7 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -13200,7 +13304,7 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="1"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>130</code>
 			<label>EXIT_ERROR</label>
 			<Str sr="arg0" ve="3">asms.log</Str>
@@ -13212,7 +13316,7 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_alert.notify</Str>
 			<Int sr="arg1">
@@ -13223,7 +13327,7 @@ On</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_talk</Str>
 			<Int sr="arg1" val="5"/>
@@ -13887,17 +13991,19 @@ Did you hear it?</Str>
 	</Task>
 	<Task sr="task174">
 		<cdate>1446531455296</cdate>
-		<edate>1448043825330</edate>
+		<edate>1449237800372</edate>
 		<id>174</id>
 		<nme>__sceneTesting</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>703</code>
-			<Int sr="arg0" val="4"/>
+			<code>341</code>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%mac</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">%www</Str>
+			<Str sr="arg0" ve="3">%MAC</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
@@ -15416,10 +15522,10 @@ Where
 		<pri>103</pri>
 		<Action sr="act0" ve="7">
 			<code>171</code>
-			<Int sr="arg0" val="8000"/>
-			<Int sr="arg1" val="1000"/>
-			<Int sr="arg2" val="50"/>
-			<Int sr="arg3" val="3"/>
+			<Int sr="arg0" val="6041"/>
+			<Int sr="arg1" val="200"/>
+			<Int sr="arg2" val="80"/>
+			<Int sr="arg3" val="2"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -18098,13 +18204,52 @@ Where
 		<id>213</id>
 		<pri>105</pri>
 		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_isStringValid</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%tap_label</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%isvalid</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Selected device name (%tap_label)  contains forbidden characters!
+
+%blockedChars
+
+Please rename the device and try again.</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isvalid</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">false</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isvalid</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_carBluetoothName</Str>
 			<Str sr="arg1" ve="3">%tap_label</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_filterBtAddress</Str>
 			<Int sr="arg1">
@@ -18115,7 +18260,7 @@ Where
 			<Str sr="arg4" ve="3">%asms_carBluetoothAddress</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -18126,7 +18271,7 @@ Where
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_scene.toggle.controller</Str>
 			<Int sr="arg1">
@@ -18137,12 +18282,12 @@ Where
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Bluetooth setting saved</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">%scene_name</Str>
 			<Int sr="arg1" val="3"/>
@@ -18194,7 +18339,7 @@ Where
 	</Task>
 	<Task sr="task217">
 		<cdate>1424174576960</cdate>
-		<edate>1448998852580</edate>
+		<edate>1449300917507</edate>
 		<id>217</id>
 		<nme>asms.settings.defaults</nme>
 		<pri>100</pri>
@@ -18213,7 +18358,7 @@ Where
 		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%Version</Str>
-			<Str sr="arg1" ve="3">1.2.240-verdpi</Str>
+			<Str sr="arg1" ve="3">1.2.246</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
@@ -18314,55 +18459,50 @@ Where
 			<code>38</code>
 		</Action>
 		<Action sr="act23" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%Version</Str>
-			<Str sr="arg1" ve="3">verdpi</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%verdpi</Str>
+			<code>341</code>
+			<Int sr="arg0" val="3"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%MAC</Str>
 		</Action>
 		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%blockedChars</Str>
+			<Str sr="arg1" ve="3">@#\$%&amp;,"':;¢\&gt;\&lt;¡©£€^®¥´`°•÷×±~¿\*\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssTextTitleFont</Str>
 			<Str sr="arg1" ve="3">GIT/fonts/Roboto-Regular.ttf</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssTextPrimFont</Str>
 			<Str sr="arg1" ve="3">GIT/fonts/Roboto-Light.ttf</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssTextPrimColor</Str>
 			<Str sr="arg1" ve="3">#212121</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%css3dLight</Str>
 			<Str sr="arg1" ve="3">#FFE2E2E2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%css3dDark</Str>
 			<Str sr="arg1" ve="3">#FF6D6D6D</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg1" ve="3">#727272</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
@@ -18375,68 +18515,96 @@ Where
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>547</code>
+			<Str sr="arg0" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg1" ve="3">#727272</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%cssSemiLight</Str>
 			<Str sr="arg1" ve="3">#00FFFFFF</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssSemiAccent</Str>
 			<Str sr="arg1" ve="3">#7DE8E412</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssDividerColor</Str>
 			<Str sr="arg1" ve="3">#B6B6B6</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssPrimColor</Str>
 			<Str sr="arg1" ve="3">#9E9E9E</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssPrimLightColor</Str>
 			<Str sr="arg1" ve="3">#F5F5F5</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssWarningColor</Str>
 			<Str sr="arg1" ve="3">#FFCE824C</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssAccentColor</Str>
 			<Str sr="arg1" ve="3">#FFEB3B</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssHighlightColor</Str>
 			<Str sr="arg1" ve="3">#7FFDFF00</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssPrimDarkColor</Str>
 			<Str sr="arg1" ve="3">#FF7A919A</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
+			<Str sr="arg1" ve="3">20</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%asms_BufferMinutes</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%asms_BufferMinutes</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act41" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_ifSay</Str>
 			<Str sr="arg1" ve="3">off</Str>
@@ -18450,14 +18618,7 @@ Where
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
-			<Str sr="arg1" ve="3">20</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act42" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asmsDebug</Str>
 			<Str sr="arg1" ve="3">off</Str>
@@ -18471,7 +18632,7 @@ Where
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%voiceStream</Str>
 			<Str sr="arg1" ve="3">ringer</Str>
@@ -18485,7 +18646,7 @@ Where
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asmsNoteFlag</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -18499,7 +18660,7 @@ Where
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act45" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%noteToggleText</Str>
 			<Str sr="arg1" ve="3">no notifications</Str>
@@ -18513,7 +18674,7 @@ Where
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act46" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_calendarNameFull</Str>
 			<Str sr="arg1" ve="3">set calendar...</Str>
@@ -18527,7 +18688,7 @@ Where
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act47" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_carBluetoothName</Str>
 			<Str sr="arg1" ve="3">set bluetooth..</Str>
@@ -18541,7 +18702,7 @@ Where
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act48" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%helpContent</Str>
 			<Str sr="arg1" ve="3">Good #daypart#, arriving at #time#, in #minutes# minutes. trip length is #distance# km.</Str>
@@ -18588,7 +18749,7 @@ Where
 	</Task>
 	<Task sr="task218">
 		<cdate>1442582577706</cdate>
-		<edate>1447792501867</edate>
+		<edate>1449085338279</edate>
 		<id>218</id>
 		<nme>___testArrivalTimeNoRecipient</nme>
 		<pri>100</pri>
@@ -19456,7 +19617,7 @@ Device Types
 	</Task>
 	<Task sr="task244">
 		<cdate>1444506321695</cdate>
-		<edate>1448131205197</edate>
+		<edate>1449300702520</edate>
 		<id>244</id>
 		<nme>omw.emailLog</nme>
 		<pri>100</pri>
@@ -20324,7 +20485,7 @@ Device Types
 	</Task>
 	<Task sr="task266">
 		<cdate>1445755346907</cdate>
-		<edate>1448998880085</edate>
+		<edate>1449300746724</edate>
 		<id>266</id>
 		<nme>___testUI</nme>
 		<pri>100</pri>
@@ -20668,13 +20829,52 @@ Device Types
 		<id>270</id>
 		<pri>105</pri>
 		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_isStringValid</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%tap_label</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%isvalid</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Selected device name (%tap_label)  contains forbidden characters!
+
+%blockedChars
+
+Please rename the device and try again.</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isvalid</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">false</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isvalid</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_carBluetoothName</Str>
 			<Str sr="arg1" ve="3">%tap_label</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_filterBtAddress</Str>
 			<Int sr="arg1">
@@ -20685,7 +20885,7 @@ Device Types
 			<Str sr="arg4" ve="3">%asms_carBluetoothAddress</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -20696,7 +20896,7 @@ Device Types
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_scene.toggle.controller</Str>
 			<Int sr="arg1">
@@ -20707,12 +20907,12 @@ Device Types
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Bluetooth setting saved</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">%scene_name</Str>
 			<Int sr="arg1" val="3"/>
@@ -21606,72 +21806,25 @@ Device Types
 	</Task>
 	<Task sr="task306">
 		<cdate>1446297724933</cdate>
-		<edate>1447878951267</edate>
+		<edate>1449257101578</edate>
 		<id>306</id>
 		<nme>___testInfra</nme>
 		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%voiceStream</Str>
-			<Str sr="arg1" ve="3">media</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">_isStringValid</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">pt89 (זינה родова)</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%res</Str>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">_talk</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">stream through %voiceStream</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%asmsNoteFlag</Str>
-			<Str sr="arg1" ve="3">2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">_alert.notify</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">error</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">_alert.notify</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">sms_success</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>345</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">%helpAddress</Str>
-			<Str sr="arg2" ve="3">%len</Str>
-		</Action>
-		<Action sr="act6" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">%len</Str>
+			<Str sr="arg0" ve="3">%res</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
@@ -22074,13 +22227,52 @@ Did you hear it?</Str>
 		<id>326</id>
 		<pri>105</pri>
 		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_isStringValid</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%tap_label</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%isvalid</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Selected device name (%tap_label)  contains forbidden characters!
+
+%blockedChars
+
+Please rename the device and try again.</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isvalid</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">false</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isvalid</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_carBluetoothName</Str>
 			<Str sr="arg1" ve="3">%tap_label</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_filterBtAddress</Str>
 			<Int sr="arg1">
@@ -22091,7 +22283,7 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3">%asms_carBluetoothAddress</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -22102,7 +22294,7 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_scene.toggle.controller</Str>
 			<Int sr="arg1">
@@ -22113,12 +22305,12 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Bluetooth setting saved</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">%scene_name</Str>
 			<Int sr="arg1" val="3"/>
@@ -22138,6 +22330,30 @@ Did you hear it?</Str>
 			<code>548</code>
 			<Str sr="arg0" ve="3">Saved</Str>
 			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task328">
+		<cdate>1449173661707</cdate>
+		<edate>1449173661707</edate>
+		<id>328</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_scene.buffer.controller</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%new_val</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%valid_newval</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Str sr="arg1" ve="3">%element_name</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%valid_newval</Str>
+			<Str sr="arg4" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task329">
@@ -22775,6 +22991,134 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
+	</Task>
+	<Task sr="task356">
+		<cdate>1445756810328</cdate>
+		<edate>1449174217104</edate>
+		<id>356</id>
+		<nme>_scene.buffer.controller</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>6</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">59</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>7</op>
+					<rhs>59</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%asms_BufferMinutes</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_device_access_add_alarm</nme>
+		</Img>
+	</Task>
+	<Task sr="task357">
+		<cdate>1449174387873</cdate>
+		<edate>1449174387873</edate>
+		<id>357</id>
+		<Action sr="act0" ve="7">
+			<code>55</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Str sr="arg1" ve="3">%element_name</Str>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3">#FFFFFFFF</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>56</code>
+			<Str sr="arg0" ve="3">%scene_name</Str>
+			<Str sr="arg1" ve="3">%element_name</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">#FF424242</Str>
+		</Action>
+	</Task>
+	<Task sr="task358">
+		<cdate>1449246835342</cdate>
+		<edate>1449257075670</edate>
+		<id>358</id>
+		<nme>_isStringValid</nme>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">true</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs>.*[%blockedChars].*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%blockedChars</Str>
+			<Str sr="arg1" ve="3">@#\$%&amp;,"':;¢\&gt;\&lt;¡©£€^®¥´`°•÷×±~¿\*\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%blockedChars</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">true</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>5</op>
+					<rhs>.*[%blockedChars].*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">false</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_conv_a</nme>
+		</Img>
 	</Task>
 	<Task sr="task359">
 		<cdate>1445985503554</cdate>
@@ -24290,7 +24634,7 @@ Message: --=:=caron</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task61">
 		<cdate>1419929855168</cdate>
-		<edate>1448997057438</edate>
+		<edate>1449256956994</edate>
 		<id>61</id>
 		<nme>asms.settings</nme>
 		<pri>100</pri>
