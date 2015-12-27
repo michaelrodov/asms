@@ -621,13 +621,13 @@ GSM:6301.3105211 / 5</Str>
 	</Project>
 	<Project sr="proj1" ve="2">
 		<cdate>1419858421902</cdate>
-		<mdate>1450468703552</mdate>
-		<name>On My Wayz</name>
+		<mdate>1450717509798</mdate>
+		<name>On My Waze</name>
 		<pids>57,203,198</pids>
 		<psort>Alpha</psort>
-		<scenes>omw.settings.200dp,omw.settings.1080p,omw.setcal.200dp,omw.setcal.1080p,omw.setbt.1080p,omw.home.200dp,omw.home.1080p,omw.home.300dp,omw.setbt.300dp,omw.setcal.300dp,omw.settings.300dp,omw.help.1080p,omw.help.300dp,omw.help.200dp,omw.setbt.200dp,omw.home.1080p bck</scenes>
+		<scenes>omw.settings.200dp,omw.settings.1080p,omw.setcal.200dp,omw.setcal.1080p,omw.setbt.1080p,omw.home.200dp,omw.home.1080p,omw.home.300dp,omw.setbt.300dp,omw.setcal.300dp,omw.settings.300dp,omw.help.1080p,omw.help.300dp,omw.help.200dp,omw.setbt.200dp</scenes>
 		<ssort>Alpha</ssort>
-		<tids>17,118,99,133,85,18,65,127,110,114,84,125,61,170,176,177,171,175,172,180,182,185,178,184,183,186,78,193,196,199,200,201,202,208,217,244,249,250,266,267,268,269,232,259,261,306,209,210,287,288,325,356,358,7,5,14,15</tids>
+		<tids>17,118,99,133,85,18,65,127,110,114,84,125,61,170,176,177,171,175,172,180,182,185,178,184,183,186,78,193,196,199,200,201,202,208,217,244,249,250,266,267,268,269,232,259,261,306,209,210,287,288,325,356,358,7,14,15</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>android.permission.ACCESS_FINE_LOCATION</eperm0>
@@ -640,7 +640,7 @@ GSM:6301.3105211 / 5</Str>
 			<pkg>com.rodov.me.omw</pkg>
 			<vMin>17</vMin>
 			<vnme>1.2.250</vnme>
-			<vnum>155</vnum>
+			<vnum>163</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fasms%20logo%20yellow%203.0%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
@@ -1404,7 +1404,7 @@ GSM:6301.3105211 / 5</Str>
 	</Scene>
 	<Scene sr="sceneomw.home.1080p">
 		<cdate>1444468910718</cdate>
-		<edate>1450469608005</edate>
+		<edate>1450713805454</edate>
 		<gridSize>10</gridSize>
 		<heightLand>1080</heightLand>
 		<heightPort>1650</heightPort>
@@ -1772,411 +1772,8 @@ GSM:6301.3105211 / 5</Str>
 			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3">#FFF1F1F1</Str>
 			<Int sr="arg3" val="2"/>
-			<Str sr="arg4" ve="3">On My Wayz</Str>
-			<Str sr="arg5" ve="3">simple arrival notification</Str>
-			<Img sr="arg6" ve="2"/>
-			<Str sr="arg7" ve="3"/>
-			<LinkClickFilter sr="filter0">
-				<urlMatch>back</urlMatch>
-			</LinkClickFilter>
-			<ListElementItem sr="item0">
-				<Action sr="action" ve="7">
-					<code>49</code>
-					<Str sr="arg0" ve="3">%scene_name</Str>
-				</Action>
-				<Img sr="icon" ve="2">
-					<nme>hl_ab_content_remove</nme>
-				</Img>
-			</ListElementItem>
-			<ListElementItem sr="item1">
-				<Action sr="action" ve="7">
-					<code>47</code>
-					<Str sr="arg0" ve="3">%settingsScene</Str>
-					<Int sr="arg1" val="8"/>
-					<Int sr="arg2" val="100"/>
-					<Int sr="arg3" val="100"/>
-					<Int sr="arg4" val="5"/>
-					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="1"/>
-				</Action>
-				<Img sr="icon" ve="2">
-					<nme>hl_aaa_ext_overflow</nme>
-				</Img>
-			</ListElementItem>
-		</PropertiesElement>
-	</Scene>
-	<Scene sr="sceneomw.home.1080p bck">
-		<cdate>1444468910718</cdate>
-		<edate>1450469577399</edate>
-		<gridSize>10</gridSize>
-		<heightLand>1080</heightLand>
-		<heightPort>1650</heightPort>
-		<nme>omw.home.1080p bck</nme>
-		<widthLand>1080</widthLand>
-		<widthPort>1080</widthPort>
-		<RectElement sr="elements0">
-			<flags>4</flags>
-			<geom>0,90,1080,221,51,105,980,400</geom>
-			<Str sr="arg0" ve="3">logo.shadow</Str>
-			<Int sr="arg1" val="5"/>
-			<Str sr="arg2" ve="3">#FFD0D0D0</Str>
-			<Str sr="arg3" ve="3">#00F1F1F1</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<ImageElement sr="elements1" ve="2">
-			<flags>4</flags>
-			<geom>350,0,384,384,525,105,525,975</geom>
-			<longclickTask>24</longclickTask>
-			<Str sr="arg0" ve="3">home.logo</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fsend_icon%2Fweb_hi_res_512.png</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">#FF0099CC</Str>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</ImageElement>
-		<OvalElement sr="elements10">
-			<flags>4</flags>
-			<geom>50,1380,134,134,27,1660,125,125</geom>
-			<Str sr="arg0" ve="3">email.background</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%cssAccentColor</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="5"/>
-			<Str sr="arg5" ve="3">#FF797979</Str>
-		</OvalElement>
-		<ImageElement sr="elements11" ve="2">
-			<clickTask>38</clickTask>
-			<flags>4</flags>
-			<geom>70,1400,92,92,0,696,384,384</geom>
-			<Str sr="arg0" ve="3">Email.1080</Str>
-			<Img sr="arg1" ve="2">
-				<nme>hl_content_edit</nme>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
-		</ImageElement>
-		<RectElement sr="elements12">
-			<flags>4</flags>
-			<geom>0,1200,1080,4,0,0,1080,654</geom>
-			<Str sr="arg0" ve="3">home.body.footer.shadow</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#D46C6C6C</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#91000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements13">
-			<flags>4</flags>
-			<geom>0,1060,1080,130,102,1079,774,129</geom>
-			<Str sr="arg0" ve="3">save.button.shadow.1080</Str>
-			<Int sr="arg1" val="5"/>
-			<Str sr="arg2" ve="3">#3E333333</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<ImageElement sr="elements14" ve="2">
-			<clickTask>51</clickTask>
-			<flags>4</flags>
-			<geom>50,1230,122,123,427,805,250,275</geom>
-			<Str sr="arg0" ve="3">Help.1080</Str>
-			<Img sr="arg1" ve="2">
-				<uri>content://com.android.externalstorage.documents/document/primary%3AGIT%2Ficons%2Fhelp_icon%2Fres%2Fmipmap-xxxhdpi%2Fic_launcher.png</uri>
-			</Img>
-			<Int sr="arg2" val="255"/>
-			<Str sr="arg3" ve="3">%cssHighlightColor</Str>
-		</ImageElement>
-		<TextElement sr="elements15" ve="3">
-			<clickTask>52</clickTask>
-			<flags>4</flags>
-			<geom>200,1210,839,154,352,1304,625,150</geom>
-			<Str sr="arg0" ve="3">help.text.e</Str>
-			<Str sr="arg1" ve="3">create sample calendar event</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="90"/>
-			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<TextElement sr="elements16" ve="3">
-			<clickTask>53</clickTask>
-			<flags>4</flags>
-			<geom>170,1060,722,123,402,1210,600,175</geom>
-			<Str sr="arg0" ve="3">save.button.1080</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;SAVE &amp; CLOSE&lt;/b&gt;</Str>
-			<Int sr="arg2" val="25"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#FF16B114</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="5"/>
-				<Str sr="arg5" ve="3">#FFFFFFFF</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<RectElement sr="elements17">
-			<flags>4</flags>
-			<geom>510,1200,570,9,0,0,1080,654</geom>
-			<Str sr="arg0" ve="3">home.title.shadow.right</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">#D46C6C6C</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#91000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements18">
-			<flags>4</flags>
-			<geom>0,1200,528,9,0,0,1080,654</geom>
-			<Str sr="arg0" ve="3">home.title.shadow.left</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">#00000000</Str>
-			<Str sr="arg3" ve="3">#D46C6C6C</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#91000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements19" ve="3">
-			<flags>4</flags>
-			<geom>730,230,350,80,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">click.here.right</Str>
-			<Str sr="arg1" ve="3">&lt; manual launch</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain-4</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<RectElement sr="elements2">
-			<flags>4</flags>
-			<geom>30,1200,1019,370,0,777,1078,303</geom>
-			<Str sr="arg0" ve="3">footer.1080</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">%cssDividerColor</Str>
-			<Str sr="arg3" ve="3">#00000000</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FFD4D4D4</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="2"/>
-		</RectElement>
-		<TextElement sr="elements20" ve="3">
-			<flags>4</flags>
-			<geom>0,90,349,80,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">click.here.left</Str>
-			<Str sr="arg1" ve="3">manual launch &gt;</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain-4</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="4"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements3" ve="3">
-			<clickTask>26</clickTask>
-			<flags>4</flags>
-			<geom>200,1380,719,135,277,780,637,300</geom>
-			<Str sr="arg0" ve="3">Email.text.1080</Str>
-			<Str sr="arg1" ve="3">contact developer</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssPrimLightColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#00E5E5E5</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#7AE3E3E3</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<TextElement sr="elements4" ve="3">
-			<flags>4</flags>
-			<geom>30,440,980,140,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">Text.1080.1</Str>
-			<Str sr="arg1" ve="3">Send a text message, when</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements5" ve="3">
-			<flags>4</flags>
-			<geom>30,590,403,125,15,378,562,150</geom>
-			<Str sr="arg0" ve="3">text.connected.1080.2</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;connected to&lt;\b&gt;</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements6" ve="3">
-			<flags>4</flags>
-			<geom>30,720,971,130,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">Text.1080.3</Str>
-			<Str sr="arg1" ve="3">and there's an &lt;font color='#02A7F2'&gt;active event&lt;/font&gt; in</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements7" ve="3">
-			<flags>4</flags>
-			<geom>30,860,307,125,15,303,637,187</geom>
-			<Str sr="arg0" ve="3">text.calendar.1080.4</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;calendar&lt;\b&gt;</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="2"/>
-		</TextElement>
-		<TextElement sr="elements8" ve="3">
-			<clickTask>34</clickTask>
-			<flags>4</flags>
-			<geom>440,580,575,132,402,1210,600,175</geom>
-			<Str sr="arg0" ve="3">BTbutton.1080</Str>
-			<Str sr="arg1" ve="3">%asms_carBluetoothName</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#80D8D8D8</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="5"/>
-				<Str sr="arg5" ve="3">#FF7E7E7E</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<TextElement sr="elements9" ve="3">
-			<clickTask>37</clickTask>
-			<flags>4</flags>
-			<geom>330,860,682,125,402,1210,600,175</geom>
-			<Str sr="arg0" ve="3">Calbutton.1080</Str>
-			<Str sr="arg1" ve="3">%asms_calendarNameFull</Str>
-			<Int sr="arg2">
-				<var>%cssFontSizeMain</var>
-			</Int>
-			<Int sr="arg3" val="90"/>
-			<Str sr="arg4" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg5" ve="3">%cssTextPrimFont</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#80D8D8D8</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="5"/>
-				<Str sr="arg5" ve="3">#FF7E7E7E</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</TextElement>
-		<PropertiesElement sr="props">
-			<keyTask>58</keyTask>
-			<Int sr="arg0" val="2"/>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#FFF1F1F1</Str>
-			<Int sr="arg3" val="2"/>
-			<Str sr="arg4" ve="3">On My Wayz</Str>
-			<Str sr="arg5" ve="3">simple arrival notification</Str>
+			<Str sr="arg4" ve="3">%applicationName</Str>
+			<Str sr="arg5" ve="3">automatic arrival notification</Str>
 			<Img sr="arg6" ve="2"/>
 			<Str sr="arg7" ve="3"/>
 			<LinkClickFilter sr="filter0">
@@ -5680,7 +5277,7 @@ GSM:6301.3105211 / 5</Str>
 	</Task>
 	<Task sr="task110">
 		<cdate>1386442437464</cdate>
-		<edate>1446326600543</edate>
+		<edate>1450502540450</edate>
 		<id>110</id>
 		<nme>_wazeGetRouteDistance</nme>
 		<pri>100</pri>
@@ -5965,25 +5562,11 @@ GSM:6301.3105211 / 5</Str>
 	</Task>
 	<Task sr="task114">
 		<cdate>1399490551141</cdate>
-		<edate>1449946946951</edate>
+		<edate>1450502565045</edate>
 		<id>114</id>
 		<nme>_wazeGetRouteDistanceByAddress</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">Rehovot Har Hatsofim 7</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_getGeocode</Str>
 			<Int sr="arg1">
@@ -5994,7 +5577,7 @@ GSM:6301.3105211 / 5</Str>
 			<Str sr="arg4" ve="3">%destinationcoordinates</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -6005,7 +5588,7 @@ GSM:6301.3105211 / 5</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_wazeGetRouteDistance</Str>
 			<Int sr="arg1">
@@ -6016,7 +5599,7 @@ GSM:6301.3105211 / 5</Str>
 			<Str sr="arg4" ve="3">%routedistance</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%routedistance</Str>
 			<Int sr="arg1" val="1"/>
@@ -7192,7 +6775,7 @@ GSM:6301.3105211 / 5</Str>
 	</Task>
 	<Task sr="task15">
 		<cdate>1386442437464</cdate>
-		<edate>1450351376656</edate>
+		<edate>1450502498871</edate>
 		<id>15</id>
 		<nme>_wazeGetComplexRouteStaging</nme>
 		<pri>100</pri>
@@ -7370,7 +6953,7 @@ GSM:6301.3105211 / 5</Str>
 	</Task>
 	<Task sr="task17">
 		<cdate>1342548038885</cdate>
-		<edate>1450169697810</edate>
+		<edate>1450713697917</edate>
 		<id>17</id>
 		<nme>asms.send.arrival_time</nme>
 		<pri>100</pri>
@@ -11674,7 +11257,7 @@ Please rename the device and try again.</Str>
 	</Task>
 	<Task sr="task217">
 		<cdate>1424174576960</cdate>
-		<edate>1450469419651</edate>
+		<edate>1450717424382</edate>
 		<id>217</id>
 		<nme>asms.settings.defaults</nme>
 		<pri>100</pri>
@@ -11692,50 +11275,63 @@ Please rename the device and try again.</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%Version</Str>
-			<Str sr="arg1" ve="3">1.2.250</Str>
+			<Str sr="arg0" ve="3">%applicationName</Str>
+			<Str sr="arg1" ve="3">On My Waze</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DPI</lhs>
+					<op>7</op>
+					<rhs>299</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%verdpi</Str>
 			<Str sr="arg1" ve="3">300</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
 			<Str sr="arg1" ve="3">19</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act14" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%homeScene</Str>
 			<Str sr="arg1" ve="3">omw.home.300dp</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act15" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%helpScene</Str>
 			<Str sr="arg1" ve="3">omw.help.300dp</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%settingsScene</Str>
 			<Str sr="arg1" ve="3">omw.settings.300dp</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act17" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act18" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11745,28 +11341,171 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act19" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%verdpi</Str>
 			<Str sr="arg1" ve="3">400</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%applicationName</Str>
+			<Str sr="arg1" ve="3">On My Wayz</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%applicationName</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
 			<Str sr="arg1" ve="3">18</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%homeScene</Str>
 			<Str sr="arg1" ve="3">omw.home.1080p</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%helpScene</Str>
+			<Str sr="arg1" ve="3">omw.help.1080p</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%settingsScene</Str>
+			<Str sr="arg1" ve="3">omw.settings.1080p</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%blockedChars</Str>
+			<Str sr="arg1" ve="3">@#\$%&amp;,"':;¢\&gt;\&lt;¡©£€^®¥´`°•÷×±~¿\*\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssTextTitleFont</Str>
+			<Str sr="arg1" ve="3">GIT/fonts/Roboto-Regular.ttf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssTextPrimFont</Str>
+			<Str sr="arg1" ve="3">GIT/fonts/Roboto-Light.ttf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssTextPrimColor</Str>
+			<Str sr="arg1" ve="3">#212121</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%css3dLight</Str>
+			<Str sr="arg1" ve="3">#FFE2E2E2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Version</Str>
+			<Str sr="arg1" ve="3">1.2.250</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%css3dDark</Str>
+			<Str sr="arg1" ve="3">#FF6D6D6D</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssTextSecColor</Str>
+			<Str sr="arg1" ve="3">#727272</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssSemiLight</Str>
+			<Str sr="arg1" ve="3">#00FFFFFF</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssSemiAccent</Str>
+			<Str sr="arg1" ve="3">#7DE8E412</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssDividerColor</Str>
+			<Str sr="arg1" ve="3">#B6B6B6</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssPrimColor</Str>
+			<Str sr="arg1" ve="3">#9E9E9E</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssPrimLightColor</Str>
+			<Str sr="arg1" ve="3">#F5F5F5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssWarningColor</Str>
+			<Str sr="arg1" ve="3">#FFCE824C</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssAccentColor</Str>
+			<Str sr="arg1" ve="3">#FFEB3B</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssHighlightColor</Str>
+			<Str sr="arg1" ve="3">#7FFDFF00</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11776,143 +11515,14 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act20" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%helpScene</Str>
-			<Str sr="arg1" ve="3">omw.help.1080p</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%settingsScene</Str>
-			<Str sr="arg1" ve="3">omw.settings.1080p</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%blockedChars</Str>
-			<Str sr="arg1" ve="3">@#\$%&amp;,"':;¢\&gt;\&lt;¡©£€^®¥´`°•÷×±~¿\*\.</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssTextTitleFont</Str>
-			<Str sr="arg1" ve="3">GIT/fonts/Roboto-Regular.ttf</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssTextPrimFont</Str>
-			<Str sr="arg1" ve="3">GIT/fonts/Roboto-Light.ttf</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssTextPrimColor</Str>
-			<Str sr="arg1" ve="3">#212121</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%css3dLight</Str>
-			<Str sr="arg1" ve="3">#FFE2E2E2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%css3dDark</Str>
-			<Str sr="arg1" ve="3">#FF6D6D6D</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssTextSecColor</Str>
-			<Str sr="arg1" ve="3">#727272</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%verdpi</Str>
-			<Str sr="arg1" ve="3">200</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssSemiLight</Str>
-			<Str sr="arg1" ve="3">#00FFFFFF</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssSemiAccent</Str>
-			<Str sr="arg1" ve="3">#7DE8E412</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssDividerColor</Str>
-			<Str sr="arg1" ve="3">#B6B6B6</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssPrimColor</Str>
-			<Str sr="arg1" ve="3">#9E9E9E</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssPrimLightColor</Str>
-			<Str sr="arg1" ve="3">#F5F5F5</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act35" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssWarningColor</Str>
-			<Str sr="arg1" ve="3">#FFCE824C</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssAccentColor</Str>
-			<Str sr="arg1" ve="3">#FFEB3B</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssHighlightColor</Str>
-			<Str sr="arg1" ve="3">#7FFDFF00</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act40" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cssPrimDarkColor</Str>
 			<Str sr="arg1" ve="3">#FF7A919A</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act41" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_BufferMinutes</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -11926,14 +11536,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
-			<Str sr="arg1" ve="3">20</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act42" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_ifSay</Str>
 			<Str sr="arg1" ve="3">off</Str>
@@ -11947,7 +11550,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asmsDebug</Str>
 			<Str sr="arg1" ve="3">off</Str>
@@ -11961,7 +11564,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%voiceStream</Str>
 			<Str sr="arg1" ve="3">ringer</Str>
@@ -11975,7 +11578,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act45" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asmsNoteFlag</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -11989,7 +11592,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act46" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%noteToggleText</Str>
 			<Str sr="arg1" ve="3">no notifications</Str>
@@ -12003,7 +11606,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act47" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_calendarNameFull</Str>
 			<Str sr="arg1" ve="3">set calendar...</Str>
@@ -12017,7 +11620,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act48" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%asms_carBluetoothName</Str>
 			<Str sr="arg1" ve="3">set bluetooth..</Str>
@@ -12031,7 +11634,7 @@ Please rename the device and try again.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act49" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%helpContent</Str>
 			<Str sr="arg1" ve="3">Good #daypart#, arriving at #time#, in #minutes# minutes. trip length is #distance# km.</Str>
@@ -12040,37 +11643,38 @@ Please rename the device and try again.</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
+			<Str sr="arg0" ve="3">%verdpi</Str>
+			<Str sr="arg1" ve="3">200</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cssFontSizeMain</Str>
+			<Str sr="arg1" ve="3">20</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%homeScene</Str>
 			<Str sr="arg1" ve="3">omw.home.200dp</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act8" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%helpScene</Str>
 			<Str sr="arg1" ve="3">omw.help.200dp</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%settingsScene</Str>
 			<Str sr="arg1" ve="3">omw.settings.200dp</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DPI</lhs>
-					<op>7</op>
-					<rhs>299</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_aaa_ext_gear</nme>
@@ -12288,30 +11892,6 @@ Please rename the device and try again.</Str>
 			<code>48</code>
 			<Str sr="arg0" ve="3">%scene_name</Str>
 			<Int sr="arg1" val="3"/>
-		</Action>
-	</Task>
-	<Task sr="task24">
-		<cdate>1446582994041</cdate>
-		<edate>1446582994041</edate>
-		<id>24</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>171</code>
-			<Int sr="arg0" val="6041"/>
-			<Int sr="arg1" val="200"/>
-			<Int sr="arg2" val="80"/>
-			<Int sr="arg3" val="2"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">asms.send.arrival_time</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task241">
@@ -12825,23 +12405,6 @@ Please rename the device and try again.</Str>
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task26">
-		<cdate>1445690931809</cdate>
-		<edate>1445690931809</edate>
-		<id>26</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">omw.emailLog</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">rodov.michael+omw@gmail.com</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task260">
 		<cdate>1445980502029</cdate>
 		<edate>1445980502029</edate>
@@ -12980,7 +12543,7 @@ Please rename the device and try again.</Str>
 	</Task>
 	<Task sr="task266">
 		<cdate>1445755346907</cdate>
-		<edate>1450469398185</edate>
+		<edate>1450717493659</edate>
 		<id>266</id>
 		<nme>___testUI</nme>
 		<pri>100</pri>
@@ -13932,33 +13495,17 @@ Please rename the device and try again.</Str>
 	</Task>
 	<Task sr="task306">
 		<cdate>1446297724933</cdate>
-		<edate>1450469371673</edate>
+		<edate>1450717430692</edate>
 		<id>306</id>
 		<nme>___testInfra</nme>
 		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_wazeGetComplexRouteStaging</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">New york, new york</Str>
-			<Str sr="arg4" ve="3">%resp</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>171</code>
-			<Int sr="arg0" val="8000"/>
-			<Int sr="arg1" val="501"/>
-			<Int sr="arg2" val="50"/>
-			<Int sr="arg3" val="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%resp</Str>
-			<Int sr="arg1" val="1"/>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%applicationName</Str>
+			<Str sr="arg1" ve="3">On My Wayz</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task309">
@@ -14607,22 +14154,6 @@ Please rename the device and try again.</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task34">
-		<cdate>1445985503554</cdate>
-		<edate>1445985503554</edate>
-		<id>34</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">omw.setbt.1080p</Str>
-			<Int sr="arg1" val="8"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-	</Task>
 	<Task sr="task340">
 		<cdate>1446070574423</cdate>
 		<edate>1446070574423</edate>
@@ -15263,39 +14794,6 @@ Did you hear it?</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task37">
-		<cdate>1445985503554</cdate>
-		<edate>1445985503554</edate>
-		<id>37</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">omw.setcal.1080p</Str>
-			<Int sr="arg1" val="8"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task38">
-		<cdate>1445691025715</cdate>
-		<edate>1445691025715</edate>
-		<id>38</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">omw.emailLog</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">rodov.michael+omw@gmail.com</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task39">
 		<cdate>1375258447368</cdate>
 		<edate>1395213966825</edate>
@@ -15752,150 +15250,6 @@ Did you hear it?</Str>
 			<nme>hd_device_access_location_off</nme>
 		</Img>
 	</Task>
-	<Task sr="task5">
-		<cdate>1386442437464</cdate>
-		<edate>1450350081932</edate>
-		<id>5</id>
-		<nme>_proxyLocalGet</nme>
-		<pri>100</pri>
-		<rty>1</rty>
-		<Action sr="act0" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var par1 = par1.trim()</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="10"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">httpd.txt</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">setGlobal("HTTPTEXT", global("HTTPTEXT").replace(/^[ ]*/i,"") .replace(/[ ]*$/i,"") );</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="10"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">asms.log</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">HTML conversation to text: %HTTPTEXT</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">asms.log</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">Return value: %HTTPTEXT</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%HTTPTEXT</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%httpdata</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">asms.log</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">Request:http://192.168.0.105/%par1</Str>
-			<Str sr="arg3" ve="3">proxyget</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>118</code>
-			<Str sr="arg0" ve="3">http://192.168.0.105</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="60"/>
-			<Str sr="arg6" ve="3">text/*</Str>
-			<Str sr="arg7" ve="3">httpd.txt</Str>
-			<Int sr="arg8" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>417</code>
-			<Str sr="arg0" ve="3">httpd.txt</Str>
-			<Str sr="arg1" ve="3">%httpdata</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%HTTPD</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%httpdata</Str>
-			<Str sr="arg1" ve="3">%HTTPD</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%HTTPD</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">asms.log</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">Response [%HTTPR][%header1] %httpdata</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>596</code>
-			<Str sr="arg0" ve="3">%httpdata</Str>
-			<Int sr="arg1" val="7"/>
-			<Str sr="arg2" ve="3">%HTTPTEXT</Str>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">setGlobal("HTTPTEXT", global("HTTPTEXT").replace(/: Web hosting by somee.com/i,"").replace(/response:/i,""));</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="12"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>hd_collections_cloud</nme>
-		</Img>
-	</Task>
 	<Task sr="task50">
 		<cdate>1376156397561</cdate>
 		<edate>1416047586566</edate>
@@ -15954,56 +15308,6 @@ Did you hear it?</Str>
 		<Img sr="icn" ve="2">
 			<nme>cust_flag</nme>
 		</Img>
-	</Task>
-	<Task sr="task51">
-		<cdate>1445714143969</cdate>
-		<edate>1445714143969</edate>
-		<id>51</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_scene.show.help.controller</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task52">
-		<cdate>1446070574423</cdate>
-		<edate>1446070574423</edate>
-		<id>52</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_scene.show.help.controller</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task53">
-		<cdate>1445985503554</cdate>
-		<edate>1445985503554</edate>
-		<id>53</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">settings saved</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>48</code>
-			<Str sr="arg0" ve="3">%scene_name</Str>
-			<Int sr="arg1" val="3"/>
-		</Action>
 	</Task>
 	<Task sr="task54">
 		<cdate>1362033352615</cdate>
@@ -16386,17 +15690,6 @@ Did you hear it?</Str>
 		<Img sr="icn" ve="2">
 			<nme>hd_aaa_ext_car</nme>
 		</Img>
-	</Task>
-	<Task sr="task58">
-		<cdate>1447794306361</cdate>
-		<edate>1447794306361</edate>
-		<id>58</id>
-		<pri>103</pri>
-		<Action sr="act0" ve="7">
-			<code>48</code>
-			<Str sr="arg0" ve="3">%scene_name</Str>
-			<Int sr="arg1" val="3"/>
-		</Action>
 	</Task>
 	<Task sr="task59">
 		<cdate>1367730279943</cdate>
@@ -17043,7 +16336,7 @@ Did you hear it?</Str>
 	</Task>
 	<Task sr="task7">
 		<cdate>1386442437464</cdate>
-		<edate>1450350126747</edate>
+		<edate>1450502484345</edate>
 		<id>7</id>
 		<nme>_wazeGetComplexRoute</nme>
 		<pri>100</pri>
@@ -17065,55 +16358,13 @@ Did you hear it?</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_proxyGet</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">complex/waze/%loc/%par2</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%response</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">_talk</Str>
-			<Int sr="arg1">
-				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3">Error occurred in HTML request</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%response</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%response</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tripminutes</Str>
-			<Str sr="arg1" ve="3">round(%response1/60)</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%distance</Str>
 			<Str sr="arg1" ve="3">(round((%response2/1000)*10))/10</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act11" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -17124,7 +16375,7 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act12" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%tripminutes,%distance</Str>
 			<Int sr="arg1" val="1"/>
@@ -17142,64 +16393,19 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act13" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">null</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">32.3047284,34.8605319</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par2</Str>
-			<Str sr="arg1" ve="3">test</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par2</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
 			<code>129</code>
 			<Str sr="arg0" ve="3">var par2 = par2.trim();</Str>
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="10"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>129</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">var par1 = par1.replace(/ /i,"");</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="10"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_getLocalCoord</Str>
 			<Int sr="arg1">
@@ -17210,29 +16416,14 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%loc</Str>
 			<Str sr="arg1" ve="3">%LOC</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%loc</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -17242,6 +16433,48 @@ Did you hear it?</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_proxyGet</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">complex/waze/%loc/%par2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%response</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">_talk</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Error occurred in HTML request</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%response</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%response</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tripminutes</Str>
+			<Str sr="arg1" ve="3">round(%response1/60)</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<cls>com.waze.FreeMapAppActivity</cls>
@@ -17577,7 +16810,7 @@ Did you hear it?</Str>
 	</Task>
 	<Task sr="task84">
 		<cdate>1386442437464</cdate>
-		<edate>1446326593968</edate>
+		<edate>1450502600589</edate>
 		<id>84</id>
 		<nme>_wazeGetRouteTime</nme>
 		<pri>100</pri>
@@ -17594,34 +16827,13 @@ Did you hear it?</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">32.3047284,34.8605319</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
+			<code>129</code>
+			<Str sr="arg0" ve="3">setLocal("par1", local("par1").replace(/ /i,""));</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="10"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%waze_address</Str>
-			<Str sr="arg1" ve="3">waze-us</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%loc_country</lhs>
-					<op>2</op>
-					<rhs>United States</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -17632,7 +16844,7 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_proxyGet</Str>
 			<Int sr="arg1">
@@ -17643,7 +16855,7 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3">%response</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_talk</Str>
 			<Int sr="arg1">
@@ -17661,14 +16873,14 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%aproxtime</Str>
 			<Str sr="arg1" ve="3">round(%response/60)</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">asms.log</Str>
 			<Int sr="arg1">
@@ -17679,7 +16891,7 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act15" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%aproxtime</Str>
 			<Int sr="arg1" val="1"/>
@@ -17691,7 +16903,7 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act16" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">null</Str>
 			<Int sr="arg1" val="1"/>
@@ -17704,18 +16916,11 @@ Did you hear it?</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">setLocal("par1", local("par1").replace(/ /i,""));</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="10"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%response</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_getLocalCoord</Str>
 			<Int sr="arg1">
@@ -17733,7 +16938,7 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%loc</Str>
 			<Str sr="arg1" ve="3">%LOC</Str>
@@ -17747,7 +16952,7 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%loc</Str>
 			<Str sr="arg1" ve="3">%par2</Str>
@@ -17761,7 +16966,7 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">_getCountryByCrd</Str>
 			<Int sr="arg1">
@@ -17772,14 +16977,14 @@ Did you hear it?</Str>
 			<Str sr="arg4" ve="3">%loc_country</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%waze_address</Str>
 			<Str sr="arg1" ve="3">waze-row</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%waze_address</Str>
 			<Str sr="arg1" ve="3">waze-il</Str>
@@ -17793,6 +16998,20 @@ Did you hear it?</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%waze_address</Str>
+			<Str sr="arg1" ve="3">waze-us</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%loc_country</lhs>
+					<op>2</op>
+					<rhs>United States</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Img sr="icn" ve="2">
 			<cls>com.waze.FreeMapAppActivity</cls>
 			<pkg>com.waze</pkg>
@@ -17800,7 +17019,7 @@ Did you hear it?</Str>
 	</Task>
 	<Task sr="task85">
 		<cdate>1386442437464</cdate>
-		<edate>1450378176194</edate>
+		<edate>1450502452978</edate>
 		<id>85</id>
 		<nme>_proxyGet</nme>
 		<pri>100</pri>
@@ -17891,7 +17110,7 @@ Did you hear it?</Str>
 			<Int sr="arg1">
 				<var>%priority+1</var>
 			</Int>
-			<Str sr="arg2" ve="3">Request:gripclaw.azurewebsites.net/%par1</Str>
+			<Str sr="arg2" ve="3">Request:src://%par1</Str>
 			<Str sr="arg3" ve="3">proxyget</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -18473,7 +17692,7 @@ Did you hear it?</Str>
 	</Task>
 	<Task sr="task99">
 		<cdate>1386914934219</cdate>
-		<edate>1450119351425</edate>
+		<edate>1450502385301</edate>
 		<id>99</id>
 		<nme>_getLocalCoord</nme>
 		<pri>100</pri>
